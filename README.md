@@ -49,3 +49,8 @@ The following are some online course videos of the computer postgraduate entranc
 # 2.[「22王道计算机全程班」](https://www.aliyundrive.com/s/fKsmGMDkeNc)
 # 3.[「2022kira醒脑班」](https://www.aliyundrive.com/s/nktZwHYnra8)
 # 4.[「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
+
+
+
+## 免责声明：
+## 本站所发布的一切资源和教程仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络或公开渠道，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该资源，请支持正版，购买使用，得到更好的正版服务。如有侵权请联系邮箱Obama110@163.com

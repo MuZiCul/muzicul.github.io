@@ -1,10 +1,10 @@
-## Welcome to 一研为定、未来可期 Pages
+## Welcome to 短亭短_红尘辗 Pages
 
 You will find the resources you want to take the postgraduate entrance exams below, but don't forget to use [BiliBili](https://space.bilibili.com/392310835)!
 Look forward to your attention and a key three even!
 You'll find all the resources you need below, but don't forget to follow UP on [BiliBili](https://space.bilibili.com/392310835) and click through the videos!
 
-你将在下面找到你想要的考研资源，但是别忘了在[BiliBili](https://space.bilibili.com/392310835)关注UP主并在视频中一键三连哦！
+你将在下面找到你想要的考研资源，但是别忘了在[BiliBili](https://space.bilibili.com/494320446)关注UP主并在视频中一键三连哦！
 
 期待你的关注和一键三连！
 

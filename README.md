@@ -12,7 +12,7 @@ You'll find all the resources you need below, but don't forget to follow UP on [
 ### 粉丝QQ群：673662013 [一键加群](https://jq.qq.com/?_wv=1027&k=xUsCWk8p)
 ### UP联系方式，微信：L1105537173 QQ:898621235 [一键添加](https://qm.qq.com/cgi-bin/qm/qr?k=GXif1euCtYf9L3lwyW13mmQfoXYd_UF0&noverify=0)
 
-## **考研数学
+## 1.考研数学
 The following is part of the online course video for the 2023 postgraduate entrance examination of mathematics.
 
 下面是2023年考研数学的部分网课视频。
@@ -35,7 +35,7 @@ The following is part of the online course video for the 2023 postgraduate entra
 ### 16.[「2022考研数学高等数学【同济教材精讲】汤家凤」](https://www.aliyundrive.com/s/apBgkELDP5g)
 ### 17.[「2023考研数学张宇数学基础30讲」](https://www.aliyundrive.com/s/z12Sybs32PW)
 
-## 考研英语
+## 2.考研英语
 The following are some online videos of postgraduate entrance examination English in 2023.
 
 下面是2023年考研英语的部分网课视频。
@@ -45,7 +45,7 @@ The following are some online videos of postgraduate entrance examination Englis
 ### 3.[「2017考研英语某知名辅导机构的英语全程班」](https://pan.baidu.com/s/132WH96uHwH_e7JTMwl463w?pwd=6666 ) 提取码：6666 
 
 
-## 计算机考研
+## 3.计算机考研
 The following are some online course videos of the computer postgraduate entrance examination in 2023.
 
 下面是2023年计算机考研的部分网课视频。
@@ -56,7 +56,7 @@ The following are some online course videos of the computer postgraduate entranc
 ### 4.[「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
 
 
-## 讲义部分
+## 4.讲义部分
 Here are some lecture notes and books for the course.
 
 下面是一部分课程的讲义和书籍。
@@ -66,7 +66,7 @@ Here are some lecture notes and books for the course.
 ### 3.[「2023考研数学武忠祥基础班PPT板书讲义」](https://www.aliyundrive.com/s/N2agwYFjtmw) 提取码: 2q8w
 
 
-## 待更新部分
+## 5.待更新部分
 The following list is the content being collected and uploaded, which is expected to be completed within 5 working days!
 
 下面列表中是正在收集并上传的内容，预计在5个工作日内完成！
@@ -82,7 +82,7 @@ The following list is the content being collected and uploaded, which is expecte
 ### 9.2023考研政治徐涛基础班
 ### 10.2023考研13大学科门类细解读
 
-## 免责声明：
+## 6.免责声明：
 ### 本站所发布的一切资源和教程仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络或公开渠道，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该资源，请支持正版，购买使用，得到更好的正版服务。如有侵权请联系邮箱Obama110@163.com
 ### Disclaimer:
 ### All resources and tutorials published on this website are only for learning and research purposes; The above contents shall not be used for commercial or illegal purposes, otherwise, all consequences shall be borne by the user. The information of this website comes from the Internet or public channels, and the copyright dispute has nothing to do with this website. You must completely delete the above content from your computer within 24 hours after downloading. If you like this resource, please support genuine, purchase and use it to get better genuine services. In case of infringement, please contact email Obama110@163.com

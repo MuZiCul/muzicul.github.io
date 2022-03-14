@@ -17,31 +17,32 @@ The following is part of the online course video for the 2023 postgraduate entra
 
 下面是2023年考研数学的部分网课视频。
 
-## 1.[「23武忠祥高数0基础班」](https://www.aliyundrive.com/s/wTSfKPUxfq9)
-# 2.[「23汤家凤高数基础班」](https://www.aliyundrive.com/s/kMwnR2vRKo9)
-# 3.[「23考研数学接力题典1800-基础篇」](https://www.aliyundrive.com/s/MFCP1VXF4Fw)
-# 4.[「23武忠详高数基础班」](https://www.aliyundrive.com/s/SN9XUmjGS29)
-# 5.[「23考研数学660题详解」](https://www.aliyundrive.com/s/5mbABneihUQ)
-# 6.[「23武忠祥高数强化班」](https://www.aliyundrive.com/s/imX5HUJ8Z3Q)
-# 7.[「2023考研数学李永乐线性代数零基础」](https://www.aliyundrive.com/s/SxDaNTgDf6o)
-# 8.[「2022李艳芳真题详解」](https://www.aliyundrive.com/s/df7Mv63SxZs)
-# 9.[「2022武忠祥高数基础+强化」](https://www.aliyundrive.com/s/Z8gNM1qxwuM)
-# 10.[「2022汤家凤高数基础+强化」](https://www.aliyundrive.com/s/ASCZwB2cF6T)
-# 11.[「2022余炳森线代概统基础+强化」](https://www.aliyundrive.com/s/sjuX2Bcnw3Y)
-# 12.[「2022李永乐线代基础+强化」](https://www.aliyundrive.com/s/a9k7XqLnKyA)
-# 13.[「2022大学数学同步课程—概...数理统计 余丙森」](https://www.aliyundrive.com/s/agpiB2vauk2)
-# 14.[「2022高等数学0基础入门（选学） 武忠祥」](https://www.aliyundrive.com/s/AAn4Zr6gtsr)
-# 15.[「2022大学数学同步课程—线性代数 余丙森」](https://www.aliyundrive.com/s/mjg8aEi3Nr8)
-# 16.[「2022高等数学【同济教材精讲】汤家凤」](https://www.aliyundrive.com/s/apBgkELDP5g)
-# 17.[「23张宇数学基础30讲」](https://www.aliyundrive.com/s/z12Sybs32PW)
-
+## 1.[「2023考研数学武忠祥高数0基础班」](https://www.aliyundrive.com/s/wTSfKPUxfq9)
+## 2.[「2023考研数学汤家凤高数基础班」](https://www.aliyundrive.com/s/kMwnR2vRKo9)
+## 3.[「2023考研数学接力题典1800-基础篇」](https://www.aliyundrive.com/s/MFCP1VXF4Fw)
+## 4.[「2023考研数学武忠详高数基础班」](https://www.aliyundrive.com/s/SN9XUmjGS29)
+## 5.[「2023考研数学660题详解」](https://www.aliyundrive.com/s/5mbABneihUQ)
+## 6.[「2023考研数学武忠祥高数强化班」](https://www.aliyundrive.com/s/imX5HUJ8Z3Q)
+## 7.[「2023考研数学李永乐线性代数零基础」](https://www.aliyundrive.com/s/SxDaNTgDf6o)
+## 8.[「2022考研数学李艳芳真题详解」](https://www.aliyundrive.com/s/df7Mv63SxZs)
+## 9.[「2022考研数学武忠祥高数基础+强化」](https://www.aliyundrive.com/s/Z8gNM1qxwuM)
+## 10.[「2022考研数学汤家凤高数基础+强化」](https://www.aliyundrive.com/s/ASCZwB2cF6T)
+## 11.[「2022考研数学余炳森线代概统基础+强化」](https://www.aliyundrive.com/s/sjuX2Bcnw3Y)
+## 12.[「2022考研数学李永乐线代基础+强化」](https://www.aliyundrive.com/s/a9k7XqLnKyA)
+## 13.[「2022考研数学大学数学同步课程—概率论与数理统计 余丙森」](https://www.aliyundrive.com/s/agpiB2vauk2)
+## 14.[「2022考研数学高等数学0基础入门（选学） 武忠祥」](https://www.aliyundrive.com/s/AAn4Zr6gtsr)
+## 15.[「2022考研数学大学数学同步课程—线性代数 余丙森」](https://www.aliyundrive.com/s/mjg8aEi3Nr8)
+## 16.[「2022考研数学高等数学【同济教材精讲】汤家凤」](https://www.aliyundrive.com/s/apBgkELDP5g)
+## 17.[「2023考研数学张宇数学基础30讲」](https://www.aliyundrive.com/s/z12Sybs32PW)
 
 ### 考研英语
 The following are some online videos of postgraduate entrance examination English in 2023.
 
 下面是2023年考研英语的部分网课视频。
 
-# 1.[「23唐迟英语考研全程班」](https://www.aliyundrive.com/s/2WgV7fAMjss)
+## 1.[「2023考研英语唐迟英语考研全程班」](https://www.aliyundrive.com/s/2WgV7fAMjss)
+## 2.[「2023考研英语刘晓艳考研英语全程班」](https://www.aliyundrive.com/s/SaYcYXAAdYj) 提取码: 98nt
+## 3.[「2017考研英语某知名辅导机构的英语全程班」](https://pan.baidu.com/s/132WH96uHwH_e7JTMwl463w?pwd=6666 ) 提取码：6666 
 
 
 ### 计算机考研
@@ -49,11 +50,20 @@ The following are some online course videos of the computer postgraduate entranc
 
 下面是2023年计算机考研的部分网课视频。
 
-# 1.[「2022青岛大学王卓数据结构」](https://www.aliyundrive.com/s/S2fj1sWi2Aj)
-# 2.[「22王道计算机全程班」](https://www.aliyundrive.com/s/fKsmGMDkeNc)
-# 3.[「2022kira醒脑班」](https://www.aliyundrive.com/s/nktZwHYnra8)
-# 4.[「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
+## 1.[「2022考研408青岛大学王卓数据结构」](https://www.aliyundrive.com/s/S2fj1sWi2Aj)
+## 2.[「2022考研408王道计算机全程班」](https://www.aliyundrive.com/s/fKsmGMDkeNc)
+## 3.[「2022kira醒脑班」](https://www.aliyundrive.com/s/nktZwHYnra8)
+## 4.[「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
 
+
+### 讲义部分
+Here are some lecture notes and books for the course.
+
+下面是一部分课程的讲义和书籍。
+
+## 1.[「2023考研数学武忠祥高等数学辅导讲义.pdf」](https://www.aliyundrive.com/s/eim9AEpq6t4) 提取码: 2q8w
+## 2.[「2023考研数学武忠祥高等数学辅导讲...与高分提档严选题.pdf」](https://www.aliyundrive.com/s/NtFzKzdpb2V) 提取码: 2q8w
+## 3.[「2023考研数学武忠祥基础班PPT板书讲义」](https://www.aliyundrive.com/s/N2agwYFjtmw) 提取码: 2q8w
 
 
 ### 免责声明：

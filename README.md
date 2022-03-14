@@ -82,7 +82,8 @@ The following list is the content being collected and uploaded, which is expecte
 ### 9.2023考研政治徐涛基础班
 ### 10.2023考研13大学科门类细解读
 
-## 6.免责声明：
+## 6.访客须知：
+### 免责声明：
 ### 本站所发布的一切资源和教程仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络或公开渠道，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该资源，请支持正版，购买使用，得到更好的正版服务。如有侵权请联系邮箱Obama110@163.com
 ### Disclaimer:
 ### All resources and tutorials published on this website are only for learning and research purposes; The above contents shall not be used for commercial or illegal purposes, otherwise, all consequences shall be borne by the user. The information of this website comes from the Internet or public channels, and the copyright dispute has nothing to do with this website. You must completely delete the above content from your computer within 24 hours after downloading. If you like this resource, please support genuine, purchase and use it to get better genuine services. In case of infringement, please contact email Obama110@163.com

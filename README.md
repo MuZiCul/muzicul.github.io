@@ -6,7 +6,7 @@ You'll find all the resources you need below, but don't forget to follow UP on [
 
 你将在下面找到你想要的考研资源，但是别忘了在[BiliBili](https://space.bilibili.com/494320446)关注UP主并在视频中一键三连哦！
 
-==期待你的关注和一键三连！==
+期待你的关注和一键三连！
 
 ### 本站正在从互联网公开渠道收集资料中，如有未更新完的视频，请耐心等待，更新进程将在粉丝群实时通知！
 ### 粉丝QQ群：673662013 [一键加群](https://jq.qq.com/?_wv=1027&k=xUsCWk8p)

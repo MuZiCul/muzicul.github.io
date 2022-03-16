@@ -12,7 +12,6 @@ You'll find all the resources you need below, but don't forget to follow UP on [
 ### 粉丝QQ群：673662013 [一键加群](https://jq.qq.com/?_wv=1027&k=xUsCWk8p)
 ### UP联系方式，微信：L1105537173 QQ:898621235 [一键添加](https://qm.qq.com/cgi-bin/qm/qr?k=GXif1euCtYf9L3lwyW13mmQfoXYd_UF0&noverify=0)
 
-
 ## 0.考研门类解读
 The following is a detailed interpretation video of 13 University Disciplines in 2023 postgraduate entrance examination.
 
@@ -104,7 +103,11 @@ The following list is the content being collected and uploaded, which is expecte
 
 ### 暂无
 
-## 6.访客须知：
+## 6.2022复试资料
+
+### [2022复试资料](https://www.aliyundrive.com/s/ihc9FhC8qYW)
+
+## 访客须知：
 ### 免责声明：
 ### 本站所发布的一切资源和教程仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络或公开渠道，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该资源，请支持正版，购买使用，得到更好的正版服务。如有侵权请联系邮箱Obama110@163.com
 ### Disclaimer:

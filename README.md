@@ -56,6 +56,7 @@ The following are some online videos of postgraduate entrance examination Englis
 ### [「2023考研英语田静语法长难句英语一」](https://www.aliyundrive.com/s/dYfcisP1cPH) 
 ### [「2023考研英语田静语法长难句英语二」](https://www.aliyundrive.com/s/fSqq4g6sWHH)
 ### [「2023考研英语何凯文」](https://www.aliyundrive.com/s/pnP4KiMH8G)
+### [「2023考研英语词汇闪过」](https://www.aliyundrive.com/s/4d8ZiuiXJBe)
 
 ## 3.考研政治
 The following are some online course videos of the 2023 political postgraduate entrance examination.
@@ -94,7 +95,6 @@ Here are some lecture notes and books for the course.
 ### [「2023考研数学武忠祥高等数学辅导讲...与高分提档严选题.pdf」](https://www.aliyundrive.com/s/NtFzKzdpb2V) 提取码: 2q8w
 ### [「2023考研数学武忠祥基础班PPT板书讲义」](https://www.aliyundrive.com/s/N2agwYFjtmw) 提取码: 2q8w
 ### [「2023田静《句句真研》PDF（英一二）」](https://www.aliyundrive.com/s/7MZqzJXDedT)
-### [「2023考研英语词汇闪过」](https://www.aliyundrive.com/s/4d8ZiuiXJBe)
 
 
 ## 5.待更新部分

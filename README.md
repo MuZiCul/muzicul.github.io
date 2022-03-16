@@ -42,6 +42,8 @@ The following is part of the online course video for the 2023 postgraduate entra
 ### [「2022考研数学大学数学同步课程—线性代数 余丙森」](https://www.aliyundrive.com/s/mjg8aEi3Nr8)
 ### [「2022考研数学高等数学【同济教材精讲】汤家凤」](https://www.aliyundrive.com/s/apBgkELDP5g)
 ### [「2023考研数学张宇数学基础30讲」](https://www.aliyundrive.com/s/z12Sybs32PW)
+### [「2022kira醒脑班」](https://www.aliyundrive.com/s/nktZwHYnra8)
+### [「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
 
 ## 2.考研英语
 The following are some online videos of postgraduate entrance examination English in 2023.
@@ -49,7 +51,7 @@ The following are some online videos of postgraduate entrance examination Englis
 下面是2023年考研英语的部分网课视频。
 
 ### [「2023考研英语唐迟英语考研全程班」](https://www.aliyundrive.com/s/2WgV7fAMjss)
-### [「2023考研英语刘晓艳考研英语全程班」](https://www.aliyundrive.com/s/SaYcYXAAdYj) 提取码: 98nt
+### [「2023考研英语刘晓艳考研英语全程班」](https://www.aliyundrive.com/s/SfLeMF21Sob)
 ### [「2017考研英语某知名辅导机构的英语全程班」](https://pan.baidu.com/s/132WH96uHwH_e7JTMwl463w?pwd=6666 ) 提取码：6666 
 ### [「2023考研英语田静语法长难句英语一」](https://www.aliyundrive.com/s/dYfcisP1cPH) 
 ### [「2023考研英语田静语法长难句英语二」](https://www.aliyundrive.com/s/fSqq4g6sWHH)
@@ -72,8 +74,7 @@ The following are some online course videos of the computer postgraduate entranc
 ### [「2023考研计算机王道C语言基础入门」](https://www.aliyundrive.com/s/mduDfBGjdLf)
 ### [「2022考研408青岛大学王卓数据结构」](https://www.aliyundrive.com/s/S2fj1sWi2Aj)
 ### [「2022考研408王道计算机全程班」](https://www.aliyundrive.com/s/fKsmGMDkeNc)
-### [「2022kira醒脑班」](https://www.aliyundrive.com/s/nktZwHYnra8)
-### [「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
+
 
 ## 5.经济学专业
 The following are some online course videos for the postgraduate entrance examination of economics in 2023.
@@ -92,6 +93,8 @@ Here are some lecture notes and books for the course.
 ### [「2023考研数学武忠祥高等数学辅导讲义.pdf」](https://www.aliyundrive.com/s/eim9AEpq6t4) 提取码: 2q8w
 ### [「2023考研数学武忠祥高等数学辅导讲...与高分提档严选题.pdf」](https://www.aliyundrive.com/s/NtFzKzdpb2V) 提取码: 2q8w
 ### [「2023考研数学武忠祥基础班PPT板书讲义」](https://www.aliyundrive.com/s/N2agwYFjtmw) 提取码: 2q8w
+### [「2023田静《句句真研》PDF（英一二）」](https://www.aliyundrive.com/s/7MZqzJXDedT)
+### [「23考研英语词汇闪过」](https://www.aliyundrive.com/s/4d8ZiuiXJBe)
 
 
 ## 5.待更新部分

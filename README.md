@@ -60,7 +60,7 @@ The following are some online course videos of the 2023 political postgraduate e
 
 下面是2023年政治考研的部分网课视频。
 
-### [「2023考研政治徐涛基础班(1)」](https://www.aliyundrive.com/s/HBqQbsY4ZS3)
+### [「2023考研政治徐涛基础班」](https://www.aliyundrive.com/s/HBqQbsY4ZS3)
 
 ## 4.计算机专业
 The following are some online course videos of the computer postgraduate entrance examination in 2023.

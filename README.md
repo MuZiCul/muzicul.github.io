@@ -84,8 +84,21 @@ The following are some online course videos for the postgraduate entrance examin
 ### [「2023考研经济学张丽敏教材精讲之微观经济学」](https://www.aliyundrive.com/s/LUHkKHZvstX)
 ### [「2023考研经济学张丽敏教材精讲之宏观经济学」](https://www.aliyundrive.com/s/iTNiKc2K9Cx)
 
+## 6.管理综合
+The following are some online course videos of management comprehensive research in 2023.
 
-## 4.讲义部分
+下面是2023年管理综合类研的部分网课视频。
+
+### [「【社科赛斯】集训营」](https://www.aliyundrive.com/s/QswpYEGvZof)
+### [「【田然】全程班」](https://www.aliyundrive.com/s/woSkBjwkiXy)
+### [「【王C】畅学营」](https://www.aliyundrive.com/s/NBwHwLWqPft)
+### [「【赵鑫全】全程班」](https://www.aliyundrive.com/s/xZW9YHqLJst)
+### [「【幂学在线】全程班」](https://www.aliyundrive.com/s/Kpmtoe7sdfZ)
+### [「陈剑讲真题(2010-2020)」](https://www.aliyundrive.com/s/ZDw5LC9yr1k)
+### [「管综真题」](https://www.aliyundrive.com/s/RERhFdtJCk8) 
+### [「【张紫潮】管综全程班](https://www.aliyundrive.com/s/YhVSgefZbnx)
+
+## 讲义部分
 Here are some lecture notes and books for the course.
 
 下面是一部分课程的讲义和书籍。
@@ -96,14 +109,14 @@ Here are some lecture notes and books for the course.
 ### [「2023田静《句句真研》PDF（英一二）」](https://www.aliyundrive.com/s/7MZqzJXDedT)
 
 
-## 5.待更新部分
+## 待更新部分
 The following list is the content being collected and uploaded, which is expected to be completed within 5 working days!
 
 下面列表中是正在收集并上传的内容，预计在5个工作日内完成！
 
 ### 暂无
 
-## 6.2022复试资料
+## 2022复试资料
 
 ### [2022复试资料](https://www.aliyundrive.com/s/ihc9FhC8qYW)
 

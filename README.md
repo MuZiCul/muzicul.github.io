@@ -94,8 +94,8 @@ The following are some online course videos of management comprehensive research
 ### [「【王C】畅学营」](https://www.aliyundrive.com/s/NBwHwLWqPft)
 ### [「【赵鑫全】全程班」](https://www.aliyundrive.com/s/xZW9YHqLJst)
 ### [「【幂学在线】全程班」](https://www.aliyundrive.com/s/Kpmtoe7sdfZ)
-### [「陈剑讲真题(2010-2020)」](https://www.aliyundrive.com/s/ZDw5LC9yr1k)
-### [「管综真题」](https://www.aliyundrive.com/s/RERhFdtJCk8) 
+### [「 陈剑讲真题(2010-2020)」](https://www.aliyundrive.com/s/ZDw5LC9yr1k)
+### [「 管综真题」](https://www.aliyundrive.com/s/RERhFdtJCk8) 
 ### [「【张紫潮】管综全程班](https://www.aliyundrive.com/s/YhVSgefZbnx)
 
 ## 讲义部分

@@ -107,6 +107,7 @@ Here are some lecture notes and books for the course.
 ### [「2023考研数学武忠祥高等数学辅导讲...与高分提档严选题.pdf」](https://www.aliyundrive.com/s/NtFzKzdpb2V) 提取码: 2q8w
 ### [「2023考研数学武忠祥基础班PPT板书讲义」](https://www.aliyundrive.com/s/N2agwYFjtmw) 提取码: 2q8w
 ### [「2023田静《句句真研》PDF（英一二）」](https://www.aliyundrive.com/s/7MZqzJXDedT)
+### [「2023红宝书考研英语词汇」](https://www.aliyundrive.com/s/TasJyHCXXp3)
 
 
 ## 待更新部分

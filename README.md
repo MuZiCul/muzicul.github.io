@@ -9,7 +9,7 @@ You'll find all the resources you need below, but don't forget to follow UP on [
 期待你的关注和一键三连！
 
 ### 本站正在从互联网公开渠道收集资料中，如有未更新完的视频，请耐心等待，更新进程将在粉丝群实时通知！
-### 粉丝QQ群：673662013 [一键加群](https://jq.qq.com/?_wv=1027&k=xUsCWk8p)
+### 微信公众号：木梓考研
 ### UP联系方式，微信：L1105537173 QQ:898621235 [一键添加](https://qm.qq.com/cgi-bin/qm/qr?k=GXif1euCtYf9L3lwyW13mmQfoXYd_UF0&noverify=0)
 
 ## 0.考研门类解读

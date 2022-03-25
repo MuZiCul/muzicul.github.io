@@ -43,6 +43,7 @@ The following is part of the online course video for the 2023 postgraduate entra
 ### [「2023考研数学张宇数学基础30讲」](https://www.aliyundrive.com/s/z12Sybs32PW)
 ### [「2022kira醒脑班」](https://www.aliyundrive.com/s/nktZwHYnra8)
 ### [「2021kira醒脑班」](https://www.aliyundrive.com/s/BQVhre8RS5m)
+### [「2023考研数学武忠祥每日一题」](https://www.aliyundrive.com/s/DrqxuVvXyAv)
 
 ## 2.考研英语
 The following are some online videos of postgraduate entrance examination English in 2023.

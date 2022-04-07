@@ -110,6 +110,7 @@ Here are some lecture notes and books for the course.
 ### [「2023田静《句句真研》PDF（英一二）」](https://www.aliyundrive.com/s/7MZqzJXDedT)
 ### [「2023红宝书考研英语词汇」](https://www.aliyundrive.com/s/TasJyHCXXp3)
 ### [「2023刘晓艳语法讲义」](https://www.aliyundrive.com/s/wmg8AK8fU8Y)
+### [「2023考研电子书（高清无水印）」](https://www.aliyundrive.com/s/6uPzRdSxqhq)
 
 
 ## 待更新部分

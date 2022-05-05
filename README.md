@@ -124,6 +124,46 @@ The following list is the content being collected and uploaded, which is expecte
 
 ### [2022复试资料](https://www.aliyundrive.com/s/ihc9FhC8qYW)
 
+## 百度网盘区
+
+### 00.扫描内部讲义汇总（含书籍扫描版）https://pan.baidu.com/s/13Y2KwTceo4jRjCe246h1oQ 提取码：a111
+
+### 01.2023新东方数学高端直通车【含全程班】（方浩 王冲 聂岩 孟玉等）https://pan.baidu.com/s/1-ho2VSBTpDrKodSVk1MawA 提取码：a111
+
+### 02.2023新文道数学金凤凰特训班（汤家凤 余丙森等）https://pan.baidu.com/s/1owkyf9_IB37OXoAzCgVwqQ 提取码：a111
+
+### 03.2023启航数学高端VIP（张宇 高昆仑）https://pan.baidu.com/s/1NBx1bU5nE3gJy0TS_4A1BA 提取码：a111
+
+### 04.2023李永乐王式安数学团队（李永乐 王式安 刘喜波）https://pan.baidu.com/s/10LZfEw9x779NAFNhw7pOLA 提取码：a111
+
+### 05.2023有道数学领学全程（武忠祥 刘金峰）https://pan.baidu.com/s/1KDy375C9uUspOapTIDd-Cg 提取码：a111
+
+### 06.2023文都数学高端特训班（汤家凤 朱杰 窦峥 刘君博）https://pan.baidu.com/s/1VIl1KBVW8E4lAIHfXxOXig 提取码：a111
+
+### 07.2023杨超数学全程（杨超）https://pan.baidu.com/s/1lSojfnNQjN2dpvxTFfs_OA 提取码：a111
+
+### 08.2023考虫数学全程（李良 曾芸芸）https://pan.baidu.com/s/1MD6W0JtwKLqgEHy0MzliKA 提取码：a111
+
+### 09.2023高途数学团队 （王喆）https://pan.baidu.com/s/1-PycbTb_N7JHkiQw_kOoAg 提取码：a111
+
+### 10.2023启航数学小侯七全程伴学班（小猴七）https://pan.baidu.com/s/101OWyoYKz2CPBF72a1xwHg 提取码：a111
+
+### 11.2023李林数学全程（李林 韦林数学团队）https://pan.baidu.com/s/1-CZEu5T8DEy8EZejYeAmGw 提取码：a111
+
+### 12.2023考研橙啦刀哥数学系统班（刀哥 汤家凤）https://pan.baidu.com/s/1nv6e9onAJByfxWDhr6MBvA 提取码：a111
+
+### 13.2023周洋鑫数学全程（周洋鑫）https://pan.baidu.com/s/10uLKTAA6CV6Rm9jz45a8yQ 提取码：a111
+
+### 14.2023姜晓千数学全程（姜晓千）https://pan.baidu.com/s/19Aw7sC6Mnc1iXOOTG6ejAQ 提取码：a111
+
+### 15.2023启航数学系统直播班配套李正元复习全书（Kira张翀 王燕星 刘硕）https://pan.baidu.com/s/1Jz8WKyEDgNatVQoxcbplqA 提取码：a111
+
+### 16.2023高教在线数学全程（高昆仑）https://pan.baidu.com/s/17Tr-wpY8mzWY044roU263Q 提取码：a111
+
+### 17.2023海天方浩数学高端飞跃班（方浩）https://pan.baidu.com/s/1ZkHdPNcI_3io-MUKAwBkyA 提取码：a111
+
+### 18.2023世纪高教数学VIP全程（李艳芳团队）https://pan.baidu.com/s/1VuvXiAYSrR55kzxpdCuSaA 提取码：a111
+
 ## 访客须知：
 ### 免责声明：
 ### 本站所发布的一切资源和教程仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络或公开渠道，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该资源，请支持正版，购买使用，得到更好的正版服务。如有侵权请联系邮箱Obama110@163.com

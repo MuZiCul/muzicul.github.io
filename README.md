@@ -104,12 +104,6 @@ Here are some lecture notes and books for the course.
 
 下面是一部分课程的讲义和书籍。
 
-### [「2023考研数学武忠祥高等数学辅导讲义.pdf」](https://www.aliyundrive.com/s/eim9AEpq6t4) 提取码: 2q8w
-### [「2023考研数学武忠祥高等数学辅导讲...与高分提档严选题.pdf」](https://www.aliyundrive.com/s/NtFzKzdpb2V) 提取码: 2q8w
-### [「2023考研数学武忠祥基础班PPT板书讲义」](https://www.aliyundrive.com/s/N2agwYFjtmw) 提取码: 2q8w
-### [「2023田静《句句真研》PDF（英一二）」](https://www.aliyundrive.com/s/7MZqzJXDedT)
-### [「2023红宝书考研英语词汇」](https://www.aliyundrive.com/s/TasJyHCXXp3)
-### [「2023刘晓艳语法讲义」](https://www.aliyundrive.com/s/wmg8AK8fU8Y)
 ### [「2023考研电子书（高清无水印）」](https://www.aliyundrive.com/s/6uPzRdSxqhq)
 
 
@@ -126,43 +120,43 @@ The following list is the content being collected and uploaded, which is expecte
 
 ## 百度网盘区
 
-### 00.扫描内部讲义汇总（含书籍扫描版）https://pan.baidu.com/s/13Y2KwTceo4jRjCe246h1oQ 提取码：a111
+### 00.[扫描内部讲义汇总（含书籍扫描版）](https://pan.baidu.com/s/13Y2KwTceo4jRjCe246h1oQ) 提取码：a111
 
-### 01.2023新东方数学高端直通车【含全程班】（方浩 王冲 聂岩 孟玉等）https://pan.baidu.com/s/1-ho2VSBTpDrKodSVk1MawA 提取码：a111
+### 01.2023[新东方数学高端直通车【含全程班】（方浩 王冲 聂岩 孟玉等）](https://pan.baidu.com/s/1-ho2VSBTpDrKodSVk1MawA) 提取码：a111
 
-### 02.2023新文道数学金凤凰特训班（汤家凤 余丙森等）https://pan.baidu.com/s/1owkyf9_IB37OXoAzCgVwqQ 提取码：a111
+### 02.2023[新文道数学金凤凰特训班（汤家凤 余丙森等）](https://pan.baidu.com/s/1owkyf9_IB37OXoAzCgVwqQ) 提取码：a111
 
-### 03.2023启航数学高端VIP（张宇 高昆仑）https://pan.baidu.com/s/1NBx1bU5nE3gJy0TS_4A1BA 提取码：a111
+### 03.2023[启航数学高端VIP（张宇 高昆仑）](https://pan.baidu.com/s/1NBx1bU5nE3gJy0TS_4A1BA) 提取码：a111
 
-### 04.2023李永乐王式安数学团队（李永乐 王式安 刘喜波）https://pan.baidu.com/s/10LZfEw9x779NAFNhw7pOLA 提取码：a111
+### 04.2023[李永乐王式安数学团队（李永乐 王式安 刘喜波）](https://pan.baidu.com/s/10LZfEw9x779NAFNhw7pOLA) 提取码：a111
 
-### 05.2023有道数学领学全程（武忠祥 刘金峰）https://pan.baidu.com/s/1KDy375C9uUspOapTIDd-Cg 提取码：a111
+### 05.2023[有道数学领学全程（武忠祥 刘金峰）](https://pan.baidu.com/s/1KDy375C9uUspOapTIDd-Cg) 提取码：a111
 
-### 06.2023文都数学高端特训班（汤家凤 朱杰 窦峥 刘君博）https://pan.baidu.com/s/1VIl1KBVW8E4lAIHfXxOXig 提取码：a111
+### 06.2023[文都数学高端特训班（汤家凤 朱杰 窦峥 刘君博）](https://pan.baidu.com/s/1VIl1KBVW8E4lAIHfXxOXig) 提取码：a111
 
-### 07.2023杨超数学全程（杨超）https://pan.baidu.com/s/1lSojfnNQjN2dpvxTFfs_OA 提取码：a111
+### 07.2023[杨超数学全程（杨超）](https://pan.baidu.com/s/1lSojfnNQjN2dpvxTFfs_OA) 提取码：a111
 
-### 08.2023考虫数学全程（李良 曾芸芸）https://pan.baidu.com/s/1MD6W0JtwKLqgEHy0MzliKA 提取码：a111
+### 08.2023[考虫数学全程（李良 曾芸芸）](https://pan.baidu.com/s/1MD6W0JtwKLqgEHy0MzliKA) 提取码：a111
 
-### 09.2023高途数学团队 （王喆）https://pan.baidu.com/s/1-PycbTb_N7JHkiQw_kOoAg 提取码：a111
+### 09.2023[高途数学团队 （王喆）](https://pan.baidu.com/s/1-PycbTb_N7JHkiQw_kOoAg) 提取码：a111
 
-### 10.2023启航数学小侯七全程伴学班（小猴七）https://pan.baidu.com/s/101OWyoYKz2CPBF72a1xwHg 提取码：a111
+### 10.2023[启航数学小侯七全程伴学班（小猴七）](https://pan.baidu.com/s/101OWyoYKz2CPBF72a1xwHg) 提取码：a111
 
-### 11.2023李林数学全程（李林 韦林数学团队）https://pan.baidu.com/s/1-CZEu5T8DEy8EZejYeAmGw 提取码：a111
+### 11.2023[李林数学全程（李林 韦林数学团队）](https://pan.baidu.com/s/1-CZEu5T8DEy8EZejYeAmGw) 提取码：a111
 
-### 12.2023考研橙啦刀哥数学系统班（刀哥 汤家凤）https://pan.baidu.com/s/1nv6e9onAJByfxWDhr6MBvA 提取码：a111
+### 12.2023[考研橙啦刀哥数学系统班（刀哥 汤家凤）](https://pan.baidu.com/s/1nv6e9onAJByfxWDhr6MBvA) 提取码：a111
 
-### 13.2023周洋鑫数学全程（周洋鑫）https://pan.baidu.com/s/10uLKTAA6CV6Rm9jz45a8yQ 提取码：a111
+### 13.2023[周洋鑫数学全程（周洋鑫）](https://pan.baidu.com/s/10uLKTAA6CV6Rm9jz45a8yQ) 提取码：a111
 
-### 14.2023姜晓千数学全程（姜晓千）https://pan.baidu.com/s/19Aw7sC6Mnc1iXOOTG6ejAQ 提取码：a111
+### 14.2023[姜晓千数学全程（姜晓千）](https://pan.baidu.com/s/19Aw7sC6Mnc1iXOOTG6ejAQ) 提取码：a111
 
-### 15.2023启航数学系统直播班配套李正元复习全书（Kira张翀 王燕星 刘硕）https://pan.baidu.com/s/1Jz8WKyEDgNatVQoxcbplqA 提取码：a111
+### 15.2023[启航数学系统直播班配套李正元复习全书（Kira张翀 王燕星 刘硕）](https://pan.baidu.com/s/1Jz8WKyEDgNatVQoxcbplqA) 提取码：a111
 
-### 16.2023高教在线数学全程（高昆仑）https://pan.baidu.com/s/17Tr-wpY8mzWY044roU263Q 提取码：a111
+### 16.2023[高教在线数学全程（高昆仑）](https://pan.baidu.com/s/17Tr-wpY8mzWY044roU263Q) 提取码：a111
 
-### 17.2023海天方浩数学高端飞跃班（方浩）https://pan.baidu.com/s/1ZkHdPNcI_3io-MUKAwBkyA 提取码：a111
+### 17.2023[海天方浩数学高端飞跃班（方浩）](https://pan.baidu.com/s/1ZkHdPNcI_3io-MUKAwBkyA) 提取码：a111
 
-### 18.2023世纪高教数学VIP全程（李艳芳团队）https://pan.baidu.com/s/1VuvXiAYSrR55kzxpdCuSaA 提取码：a111
+### 18.2023[世纪高教数学VIP全程（李艳芳团队）](https://pan.baidu.com/s/1VuvXiAYSrR55kzxpdCuSaA) 提取码：a111
 
 ## 访客须知：
 ### 免责声明：

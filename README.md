@@ -28,6 +28,7 @@ The following is part of the online course video for the 2023 postgraduate entra
 ### [「2023考研数学汤家凤高数基础班」](https://www.aliyundrive.com/s/kMwnR2vRKo9)
 ### [「2023考研数学接力题典1800-基础篇」](https://www.aliyundrive.com/s/MFCP1VXF4Fw)
 ### [「2023考研数学武忠详高数基础班」](https://www.aliyundrive.com/s/SN9XUmjGS29)
+### [「23武忠祥高数辅导讲义习题讲解」](https://www.aliyundrive.com/s/CzQK9o2pdip)
 ### [「2023考研数学660题详解」](https://www.aliyundrive.com/s/5mbABneihUQ)
 ### [「2023考研数学武忠祥高数强化班」](https://www.aliyundrive.com/s/imX5HUJ8Z3Q)
 ### [「2023考研数学李永乐线性代数零基础」](https://www.aliyundrive.com/s/SxDaNTgDf6o)

@@ -10,7 +10,8 @@ You'll find all the resources you need below, but don't forget to follow UP on [
 
 ### 本站正在从互联网公开渠道收集资料中，如有未更新完的视频，请耐心等待，更新进程将在粉丝群实时通知！
 ### 微信公众号：木梓考研
-### UP联系方式，微信：L1105537173 QQ:898621235 [一键添加](https://qm.qq.com/cgi-bin/qm/qr?k=GXif1euCtYf9L3lwyW13mmQfoXYd_UF0&noverify=0)
+### UP联系方式：微信：L1105537173 QQ:898621235 [一键添加](https://qm.qq.com/cgi-bin/qm/qr?k=GXif1euCtYf9L3lwyW13mmQfoXYd_UF0&noverify=0)
+### Github：[MuZiCul](https://github.com/MuZiCul/muzicul.github.io)
 
 ## 0.考研门类解读
 The following is a detailed interpretation video of 13 University Disciplines in 2023 postgraduate entrance examination.

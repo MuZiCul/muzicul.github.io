@@ -3,9 +3,9 @@ const merchantData = {
     // 商人数据
     merchants: [
               {
-            type: "康乃馨",
+            type: "栗子",
             players: [
-                { id: "杏丝", uid: "524492413", note: "", leaveTime: "3.25号17.30" }
+                { id: "举个栗子", uid: "000", note: "", leaveTime: "3.25号17.30" }
             ]
         },
 

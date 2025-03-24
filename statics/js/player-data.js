@@ -56,8 +56,9 @@ const playerData = {
     // 熟练度区数据
     skillSection: [
         {
-            title: "作物熟练度+40%",
+            title: "作物熟练度获取提升+40%",
             players: [
+                { id: "仪笙", uid: "000", note: "无法搜索" },
                 { id: "2号是狼呀快跑", uid: "896845314", note: "@朝歌To" },
             ]
         },
@@ -109,6 +110,7 @@ const playerData = {
             players: [
                 { id: "不知名媛酱", uid: "679423175", note: "" },
                 { id: "寄恒月", uid: "545330108", note: "" },
+                { id: "岛cpr", uid: "1314138596", note: "" },
                 { id: "心收货摩羯座", uid: "000", note: "无法搜索" },
                 { id: "童酱quq", uid: "000", note: "无法搜索" }
             ]

@@ -5,8 +5,10 @@ function checkBrowser() {
     const isQQ = ua.indexOf('qq') !== -1;
     
     if (isWechat || isQQ) {
-        document.getElementById('wechatTip').style.display = 'block';
-        document.body.style.overflow = 'hidden'; // 防止背景滚动
+        // 如果当前不是引导页面，则跳转到引导页面
+        if (!window.location.href.includes('browser-guide.html')) {
+            window.location.href = 'browser-guide.html';
+        }
     }
 }
 

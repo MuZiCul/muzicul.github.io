@@ -3,11 +3,31 @@ function checkBrowser() {
     const ua = navigator.userAgent.toLowerCase();
     const isWechat = ua.indexOf('micromessenger') !== -1;
     const isQQ = ua.indexOf('qq') !== -1;
-    
+    const currentUrl = window.location.href;
+
+    // 如果是微信或QQ浏览器
     if (isWechat || isQQ) {
         // 如果当前不是引导页面，则跳转到引导页面
-        if (!window.location.href.includes('browser-guide.html')) {
+        if (!currentUrl.includes('browser-guide.html')) {
             window.location.href = 'browser-guide.html';
+        }
+    }
+    // 如果不是微信和QQ浏览器
+    else {
+        // 如果当前是browser-guide.html页面，则跳转到index.html
+        if (currentUrl.includes('browser-guide.html')) {
+            window.location.href = 'index.html';
+            return;
+        }
+
+        // 如果既不是index.html也不是根路径，也跳转到index.html
+        const isIndexPage = currentUrl.includes('index.html');
+        const isRootPath = currentUrl.endsWith('/') ||
+                           currentUrl.endsWith('farmmemo.netlify.app/') ||
+                           currentUrl.endsWith('farmmemo.netlify.app');
+
+        if (!isIndexPage && !isRootPath) {
+            window.location.href = 'index.html';
         }
     }
 }

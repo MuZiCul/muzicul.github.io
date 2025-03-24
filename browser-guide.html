@@ -168,5 +168,21 @@
             获得最佳浏览体验
         </div>
     </div>
+    <script>
+        // 检测是否在微信或QQ中打开
+        function checkBrowser() {
+            const ua = navigator.userAgent.toLowerCase();
+            const isWechat = ua.indexOf('micromessenger') !== -1;
+            const isQQ = ua.indexOf('qq') !== -1;
+
+            // 如果不是微信和QQ浏览器，则跳转到index.html
+            if (!isWechat && !isQQ) {
+                window.location.href = 'index.html';
+            }
+        }
+
+        // 页面加载完成后执行检测
+        document.addEventListener('DOMContentLoaded', checkBrowser);
+    </script>
 </body>
 </html>

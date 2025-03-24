@@ -48,7 +48,7 @@ const playerData = {
         {
             title: "鱼塘全水层钓鱼经验+15%",
             players: [
-                { id: "暂无", uid: "000", note: "" },
+                { id: "清沂", uid: "824431880", note: "@脆脆脆桃子" },
             ]
         }
     ],
@@ -65,7 +65,7 @@ const playerData = {
             title: "动物熟练度获取提升+40%",
             players: [
                 { id: "晚江词", uid: "448710538", note: "" },
-                { id: "清沂", uid: "824431880", note: "@脆脆脆桃子" },
+                { id: "Karrry", uid: "1500403173", note: "@脆脆脆桃子" },
             ]
         },
         {

@@ -4,6 +4,8 @@ function checkBrowser() {
     const isWechat = ua.indexOf('micromessenger') !== -1;
     const isQQ = ua.indexOf('qq') !== -1;
     const currentUrl = window.location.href;
+    const rootUrl = window.location.origin + '/';
+    const hostname = window.location.hostname;
 
     // 如果是微信或QQ浏览器
     if (isWechat || isQQ) {
@@ -14,20 +16,20 @@ function checkBrowser() {
     }
     // 如果不是微信和QQ浏览器
     else {
-        // 如果当前是browser-guide.html页面，则跳转到index.html
+        // 如果当前是browser-guide.html页面，则跳转到根目录
         if (currentUrl.includes('browser-guide.html')) {
-            window.location.href = 'index.html';
+            window.location.href = rootUrl;
             return;
         }
 
-        // 如果既不是index.html也不是根路径，也跳转到index.html
+        // 如果既不是index.html也不是根路径，也跳转到根目录
         const isIndexPage = currentUrl.includes('index.html');
-        const isRootPath = currentUrl.endsWith('/') ||
-                           currentUrl.endsWith('farmmemo.netlify.app/') ||
-                           currentUrl.endsWith('farmmemo.netlify.app');
+        const isRootPath = currentUrl === rootUrl ||
+                           currentUrl === window.location.origin ||
+                           currentUrl.endsWith('/');
 
         if (!isIndexPage && !isRootPath) {
-            window.location.href = 'index.html';
+            window.location.href = rootUrl;
         }
     }
 }

@@ -174,10 +174,11 @@
             const ua = navigator.userAgent.toLowerCase();
             const isWechat = ua.indexOf('micromessenger') !== -1;
             const isQQ = ua.indexOf('qq') !== -1;
+            const rootUrl = window.location.origin + '/';
 
-            // 如果不是微信和QQ浏览器，则跳转到index.html
+            // 如果不是微信和QQ浏览器，则跳转到网站根目录
             if (!isWechat && !isQQ) {
-                window.location.href = 'https://farmmemo.netlify.app';
+                window.location.href = rootUrl;
             }
         }
 

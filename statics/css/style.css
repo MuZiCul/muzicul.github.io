@@ -1,0 +1,595 @@
+:root {
+    /* 主题色调 - 柔和的粉紫色系 */
+    --primary-color: #a18cd1;
+    --secondary-color: #fbc2eb;
+    --accent-color: #8675a9;
+    --text-color: #333;
+    --light-bg: #f9f4ff;
+    --card-bg: #ffffff;
+    --warning-color: #ff6b6b;
+}
+
+body {
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin: 0;
+    font-weight: 600;
+}
+
+.warning-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.warning-text {
+    color: var(--warning-color);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.notice-text {
+    color: var(--accent-color);
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.section-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+}
+
+.section-title {
+    position: relative;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.sub-title {
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0 10px;
+}
+
+.player-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.player-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: var(--light-bg);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.player-item:hover {
+    background-color: #f0e6ff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.player-info {
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.player-info:before {
+    content: "🌸";
+    color: var(--secondary-color);
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.copy-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.copy-btn {
+    padding: 4px 10px;
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-btn:hover {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.copy-btn i {
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.tips-list {
+    padding-left: 20px;
+}
+
+.tips-list li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.tips-list li:before {
+    content: "🌸";
+    color: var(--secondary-color);
+    position: absolute;
+    left: -20px;
+}
+
+.update-info {
+    font-style: italic;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 24px;
+    }
+    
+    .section-title {
+        font-size: 18px;
+    }
+    
+    .player-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .player-info {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .copy-buttons {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .copy-btn {
+        flex: 1;
+        margin: 0 4px;
+        padding: 6px 0;
+    }
+}
+
+/* 返回顶部按钮 */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 999;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+}
+
+/* 加载动画 */
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--light-bg);
+    border-top: 5px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 导航按钮样式 */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    color: var(--accent-color);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-btn:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.nav-btn.active {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: white;
+}
+
+/* 内容区域样式 */
+.content-area {
+    display: none;
+}
+
+.content-area.active {
+    display: block;
+}
+
+/* 商人列表样式 */
+.merchant-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.merchant-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: var(--light-bg);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.merchant-item:hover {
+    background-color: #f0e6ff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.merchant-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.merchant-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.merchant-name:before {
+    content: "🌸";
+    margin-right: 8px;
+}
+
+.merchant-time {
+    color: var(--accent-color);
+    font-size: 14px;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .merchant-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .merchant-time {
+        margin-top: 5px;
+    }
+}
+
+/* 返回底部按钮样式 */
+.back-to-bottom {
+    position: fixed;
+    left: 20px;
+    bottom: -60px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.back-to-bottom i {
+    transform: rotate(180deg); /* 旋转图标180度 */
+}
+
+.back-to-bottom:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.back-to-bottom.visible {
+    bottom: 20px;
+    opacity: 1;
+}
+
+/* 玩家ID和备注样式 */
+.player-id {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* 玩家备注样式 - 基础样式 */
+.player-note {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/* 不同类型的备注样式 */
+.note-no-mention {
+    background-color: #6ed69a; /* 绿色 - 表示无需艾特 */
+}
+
+.note-need-mention {
+    background-color: #f8ac59; /* 橙色 - 表示需要艾特 */
+}
+
+.note-default {
+    background-color: var(--warning-color); /* 默认颜色 - 其他备注 */
+}
+
+/* 商人名称和备注样式 */
+.merchant-name .player-note {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/* 折叠区域样式 */
+.collapsible-section {
+    margin-bottom: 15px;
+}
+
+.collapsible-header {
+    background-color: var(--light-bg);
+    padding: 12px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.collapsible-header:hover {
+    background-color: #f0e6ff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.collapsible-title {
+    font-weight: 600;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.collapsible-title:before {
+    content: "✿";
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.collapsible-icon {
+    transition: transform 0.3s ease;
+}
+
+.collapsible-content {
+    display: none; /* 默认隐藏 */
+    padding: 15px;
+    background-color: var(--light-bg);
+    border-radius: 0 0 10px 10px;
+}
+
+.collapsible-section.active .collapsible-header {
+    border-radius: 10px 10px 0 0;
+    background-color: #f0e6ff;
+}
+
+.collapsible-section.active .collapsible-icon {
+    transform: rotate(180deg);
+}
+
+.collapsible-section.active .collapsible-content {
+    display: block; /* 激活时显示 */
+}
+
+/* 玩家计数标签 */
+.player-count {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* 花卉卡片样式 */
+.flower-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 15px;
+}
+
+.flower-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s ease;
+}
+
+.flower-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.flower-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.flower-value-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.value-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+.value-label {
+    color: #666;
+    font-size: 14px;
+}
+
+.value-amount {
+    color: #1E9FFF;
+    font-weight: 500;
+}
+
+.value-price {
+    color: #FF5722;
+    font-weight: bold;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 768px) {
+    .flower-cards-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .flower-card {
+        padding: 12px;
+    }
+
+    .flower-name {
+        font-size: 16px;
+    }
+
+    .value-item {
+        padding: 6px;
+    }
+
+    .value-label {
+        font-size: 13px;
+    }
+
+    .value-amount, .value-price {
+        font-size: 14px;
+    }
+} 

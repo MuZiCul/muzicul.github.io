@@ -3,13 +3,19 @@ function checkBrowser() {
     const ua = navigator.userAgent.toLowerCase();
     const isWechat = ua.indexOf('micromessenger') !== -1;
     const isQQ = ua.indexOf('qq') !== -1;
-
-    // 只有在微信或QQ浏览器中才显示蒙版引导
-    if (isWechat || isQQ) {
+    
+    // 获取当前域名
+    const currentDomain = window.location.hostname;
+    
+    // 检查当前域名是否需要显示跳转提示
+    const shouldShowRedirect = browserRedirectConfig[currentDomain];
+    
+    // 只有在微信或QQ浏览器中，且当前域名配置为显示跳转提示时才显示蒙版引导
+    if ((isWechat || isQQ) && shouldShowRedirect === 1) {
         // 创建蒙版引导元素
         createBrowserGuide();
     }
-    // 在其他浏览器中不做任何处理，正常显示页面内容
+    // 在其他情况下不做任何处理，正常显示页面内容
 }
 
 // 创建浏览器引导蒙版

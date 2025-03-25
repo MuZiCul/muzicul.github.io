@@ -1,3 +1,9 @@
+// 域名跳转控制参数（1为开启跳转提示，0为关闭跳转提示）
+const browserRedirectConfig = {
+    'farmmemo.netlify.app': 1,  // 第一个链接的跳转控制
+    'muzicul.github.io': 0      // 第二个链接的跳转控制
+};
+
 // 复制文本功能
 function copyText(text) {
     const tempInput = document.createElement("input");

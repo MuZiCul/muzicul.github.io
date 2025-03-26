@@ -137,7 +137,7 @@ const guideData = {
                 totalValue: '未知'
             },
             {
-                name: "双倍未知花",
+                name: "双倍紫梦鸢",
                 tag: "神农·圣灵触发，X16作物",
                 singleAmount: '未知',
                 singleValue: '未知',

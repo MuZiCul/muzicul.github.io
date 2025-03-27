@@ -127,6 +127,6 @@ const playerData = {
     
     // 耻辱柱数据
     shamePlayers: [
-        { id: "待添加", uid: "000", note: "" }
+        { id: "表情包的包", uid: "886993458", note: "偷菜、无贡献、潜水" }
     ]
 }; 

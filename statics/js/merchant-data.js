@@ -19,6 +19,11 @@ const merchantData = {
             players: [
                 { id: "二余温道", uid: "1334943603", note: "", leaveTime: "3.28号19.48" }
             ]
+        },,{
+            type: "莲花掌",
+            players: [
+                { id: "芋泥小甜狗m", uid: "1368951537", note: "a妤妤o", leaveTime: "3.29号06.39" }
+            ]
         },
 
     ]

@@ -3,28 +3,10 @@ const merchantData = {
     // 商人数据
     merchants: [
               {
-            type: "丁香花",
+            type: "樱花",
             players: [
-                { id: "海小梨", uid: "1751489526", note: "@脆脆脆桃子", leaveTime: "3.27号23.48" },
-                { id: "oCat", uid: "1663481180", note: "@糖糖ProMax", leaveTime: "3.28号20.00" },
+                { id: "旧版刊", uid: "295105454", note: "送猫头鹰", leaveTime: "3.31号20.48" },
             ]
         },
-{
-            type: "康乃馨",
-            players: [
-                { id: "傲娇玥", uid: "1209883127", note: "", leaveTime: "3.27号19.30" }
-            ]
-        },{
-            type: "夏腊梅",
-            players: [
-                { id: "二余温道", uid: "1334943603", note: "", leaveTime: "3.28号19.48" }
-            ]
-        },,{
-            type: "莲花掌",
-            players: [
-                { id: "芋泥小甜狗m", uid: "1368951537", note: "a妤妤o", leaveTime: "3.29号06.39" }
-            ]
-        },
-
     ]
 }; 

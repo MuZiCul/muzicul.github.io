@@ -11,6 +11,7 @@ const merchantData = {
             type: "连翘",
             players: [
                 { id: "招财小芙", uid: "1362694097", note: "", leaveTime: "4.1号11.48" },
+                { id: "zhangwudi", uid: "535262032", note: "", leaveTime: "3.31号8.56" },
             ]
         },
     ]

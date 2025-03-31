@@ -419,17 +419,22 @@ body {
 }
 
 /* 不同类型的备注样式 */
-.note-no-mention {
+.at-no-mention {
     background-color: #6ed69a; /* 绿色 - 表示无需艾特 */
 }
 
-.note-need-mention {
+.at-need-mention {
     background-color: #f8ac59; /* 橙色 - 表示需要艾特 */
 }
 
-.note-default {
+.at-default {
     background-color: var(--warning-color); /* 默认颜色 - 其他备注 */
 }
+
+.note-default {
+    background-color: #1E9FFF; /* 默认颜色 - 其他备注 */
+}
+
 
 /* 商人名称和备注样式 */
 .merchant-name .player-note {

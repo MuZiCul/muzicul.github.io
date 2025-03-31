@@ -26,11 +26,11 @@ function copyText(text) {
 // 获取备注类型的函数
 function getNoteClass(note) {
     if (note.includes('无需艾特') || note.includes('无需@')) {
-        return 'note-no-mention';
+        return 'at-no-mention';
     } else if (note.includes('请先艾特') || note.includes('艾特') || note.includes('@') || note.includes('戳')) {
-        return 'note-need-mention';
+        return 'at-need-mention';
     } else {
-        return 'note-default';
+        return 'at-default';
     }
 }
 
@@ -218,21 +218,27 @@ function renderMerchants(containerId) {
                 sellSpan.textContent = player.sell;
                 nameSpan.appendChild(sellSpan);
             }
+            if (player.note) {
+                const noteSpan = document.createElement('span');
+                noteSpan.className = `player-note note-default`;
+                noteSpan.textContent = player.note;
+                nameSpan.appendChild(noteSpan);
+            }
 
 
             
             // 如果有note，创建标签
-            if (player.note) {
-                const noteSpan = document.createElement('span');
-                noteSpan.className = `player-note ${getNoteClass(player.note)}`;
-                noteSpan.textContent = player.note;
-                nameSpan.appendChild(noteSpan);
+            if (player.at) {
+                const atSpan = document.createElement('span');
+                atSpan.className = `player-note ${getNoteClass(player.at)}`;
+                atSpan.textContent = player.at;
+                nameSpan.appendChild(atSpan);
             }else {
-                const noteSpan = document.createElement('span');
+                const atSpan = document.createElement('span');
                 const note_text = `@${player.id}`;
-                noteSpan.className = `player-note ${getNoteClass(note_text)}`;
-                noteSpan.textContent = note_text;
-                nameSpan.appendChild(noteSpan);
+                atSpan.className = `player-note ${getNoteClass(note_text)}`;
+                atSpan.textContent = note_text;
+                nameSpan.appendChild(atSpan);
             }
             
             const timeSpan = document.createElement('span');

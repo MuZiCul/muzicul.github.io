@@ -97,7 +97,7 @@ const playerData = {
         },
         {
             title: "水族箱效率提升+45%",
-            players: [{id: "差板", uid: "000", note: "无法搜索"},
+            players: [{id: "差板", uid: "000", note: "@你我如星月"},
                 {id: "福生NixiaK", uid: "000", note: "无法搜索"},
             ]
         },

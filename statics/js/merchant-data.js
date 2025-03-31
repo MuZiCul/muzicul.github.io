@@ -28,6 +28,16 @@ const merchantData = {
             players: [
                 { id: "窈窈", uid: "1161014933", sell:"1.9倍", at:"", note: "", leaveTime: "4.1号10.37" },
             ]
+        },{
+            type: "黄百合",
+            players: [
+                { id: "十而猴", uid: "1161014933", sell:"", at:"@杏丝", note: "", leaveTime: "4.1号22.37" },
+            ]
+        },{
+            type: "丁香花",
+            players: [
+                { id: "DT丨Silver", uid: "720457468", sell:"", at:"@温泉看公告", note: "送猫头鹰", leaveTime: "4.1号22.37" },
+            ]
         },
     ]
 }; 

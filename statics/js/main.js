@@ -211,6 +211,15 @@ function renderMerchants(containerId) {
             const nameSpan = document.createElement('span');
             nameSpan.className = 'merchant-name';
             nameSpan.textContent = player.id;
+
+            if (player.sell) {
+                const sellSpan = document.createElement('span');
+                sellSpan.className = `player-note ${getNoteClass(player.sell)}`;
+                sellSpan.textContent = player.sell;
+                nameSpan.appendChild(sellSpan);
+            }
+
+
             
             // 如果有note，创建标签
             if (player.note) {

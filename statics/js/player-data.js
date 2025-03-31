@@ -102,6 +102,7 @@ const playerData = {
         {
             title: "鱼饵价格降低+15%",
             players: [{id: "奶优宝宝", uid: "1819681200", note: ""},
+                {id: "柴可夫斯基", uid: "824592428", note: ""},
             ]
         },
         {

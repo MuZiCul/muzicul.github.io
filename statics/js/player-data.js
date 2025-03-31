@@ -31,9 +31,6 @@ const playerData = {
             title: "加工作物产品获得农场经验提升+30%",
             players: [{id: "oCat", uid: "1663481180", note: "@糖糖promax"},
                 {id: "曲奇怮", uid: "1293697994", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""}
             ]
         },
         {

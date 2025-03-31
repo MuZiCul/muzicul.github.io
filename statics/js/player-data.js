@@ -52,7 +52,7 @@ const playerData = {
         },
         {
             title: "鱼塘全水层钓鱼经验+15%",
-            players: [{id: "纱猫讥笑", uid: "1131453789", note: "无法搜索"},
+            players: [{id: "纱猫讥笑", uid: "1131453789", note: ""},
             ]
         }
     ],

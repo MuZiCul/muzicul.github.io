@@ -12,7 +12,6 @@ const commonData = {
     
     // 更新日志
     updates: [
-        { date: "2024.3.22", content: "新增双倍商人售价对比。" },
-        { date: "2024.3.24", content: "彩色温泉更新" }
+        { date: "2024.3.31", content: "彩色温泉更新" }
     ],
 }; 

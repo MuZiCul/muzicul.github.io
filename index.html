@@ -25,6 +25,7 @@
         <div class="nav-buttons">
             <button class="nav-btn active" data-target="main-content">温泉</button>
             <button class="nav-btn" data-target="merchant-content">商人</button>
+            <button class="nav-btn" data-target="contribution-content">贡献榜</button>
             <button class="nav-btn" data-target="guide-content">攻略</button>
         </div>
 
@@ -35,13 +36,13 @@
                 <!-- 动态加载警告内容 -->
             </div>
             
-            <!-- 更新日志 -->
+            <!-- 月度最佳温泉贡献奖励 -->
             <div class="section-card" id="update-section">
-                <h2 class="section-title">手册更新日记</h2>
-                <!-- 动态加载更新日志 -->
+                <h2 class="section-title">月度最佳温泉贡献奖励</h2>
+                <!-- 动态加载奖励内容 -->
             </div>
 
-                        <!-- 经验区 -->
+            <!-- 经验区 -->
             <div class="section-card" id="common-section">
                 <h2 class="section-title">常用区</h2>
                 <!-- 动态加载经验区内容 -->
@@ -97,12 +98,13 @@
             
             <!-- 更新日志 -->
             <div class="section-card" id="merchant-update-section">
-                <h2 class="section-title">手册更新日记</h2>
+                <h2 class="section-title">月度最佳温泉贡献奖励</h2>
                 <!-- 动态加载更新日志 -->
             </div>
             
             <!-- 商人信息 -->
             <div class="section-card" id="merchant-info-section">
+                <h2 class="section-title">双倍商人信息</h2>
                 <!-- 动态加载商人信息 -->
             </div>
             
@@ -129,6 +131,48 @@
             </div>
         </div>
 
+        <!-- 贡献榜内容区域 -->
+        <div id="contribution-content" class="content-area">
+            <!-- 警告框 -->
+            <div class="warning-box" id="contribution-warning-box">
+                <!-- 动态加载警告内容 -->
+            </div>
+            
+            <!-- 月度最佳温泉贡献奖励 -->
+            <div class="section-card" id="contribution-reward-section">
+                <h2 class="section-title">月度最佳温泉贡献奖励</h2>
+                <!-- 动态加载奖励内容 -->
+            </div>
+            
+            <!-- 月度贡献榜 -->
+            <div class="section-card" id="contribution-section">
+                <h2 class="section-title">月度贡献榜 TOP 10</h2>
+                <!-- 动态加载贡献榜内容 -->
+            </div>
+            
+<!--            &lt;!&ndash; 攻略区 &ndash;&gt;-->
+<!--            <div class="section-card" id="contribution-guide-section">-->
+<!--                <h2 class="section-title">攻略区</h2>-->
+<!--                &lt;!&ndash; 动态加载攻略区内容 &ndash;&gt;-->
+<!--            </div>-->
+            
+            <!-- 耻辱柱 -->
+            <div class="section-card" id="contribution-shame-section">
+                <h2 class="section-title">耻辱柱（偷菜曝光区）</h2>
+                <!-- 动态加载耻辱柱内容 -->
+            </div>
+            
+            <!-- 返回顶部按钮 -->
+            <div class="back-to-top" id="backToTop4">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+
+            <!-- 返回底部按钮 -->
+            <div class="back-to-bottom" id="backToBottom4">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+        </div>
+
         <!-- 农场攻略内容区域 -->
         <div id="guide-content" class="content-area">
             <!-- 警告框 -->
@@ -138,7 +182,7 @@
             
             <!-- 更新日志 -->
             <div class="section-card" id="guide-update-section">
-                <h2 class="section-title">手册更新日记</h2>
+                <h2 class="section-title">月度最佳温泉贡献奖励</h2>
                 <!-- 动态加载更新日志 -->
             </div>
             
@@ -179,8 +223,10 @@
     <script src="statics/js/player-data.js"></script>
     <script src="statics/js/merchant-data.js"></script>
     <script src="statics/js/guide-data.js"></script>
+    <script src="statics/js/contribution-data.js"></script>
     <!-- 引入自定义脚本 -->
     <script src="statics/js/guide-render.js"></script>
+    <script src="statics/js/contribution-render.js"></script>
     <script src="statics/js/main.js"></script>
     <script src="statics/js/browser-check.js"></script>
 </body>

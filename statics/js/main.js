@@ -53,14 +53,99 @@ function renderWarningBox(containerId) {
     container.appendChild(noticeP);
 }
 
-// 渲染更新日志
+// 渲染月度最佳温泉贡献奖励
 function renderUpdates(containerId) {
     const container = document.getElementById(containerId);
-    commonData.updates.forEach(update => {
-        const p = document.createElement('p');
-        p.className = 'update-info';
-        p.textContent = `${update.date} ${update.content}`;
-        container.appendChild(p);
+    
+    // 创建奖励内容区域
+    const rewardContent = document.createElement('div');
+    rewardContent.className = 'collapsible-section';
+    
+    // 创建奖励内容头部
+    const rewardHeader = document.createElement('div');
+    rewardHeader.className = 'collapsible-header';
+    
+    // 创建奖励内容标题
+    const rewardTitle = document.createElement('div');
+    rewardTitle.className = 'collapsible-title';
+    rewardTitle.textContent = '奖励内容';
+    rewardHeader.appendChild(rewardTitle);
+    
+    // 添加折叠图标
+    const rewardIcon = document.createElement('span');
+    rewardIcon.className = 'collapsible-icon';
+    rewardIcon.innerHTML = '<i class="layui-icon layui-icon-down"></i>';
+    rewardHeader.appendChild(rewardIcon);
+    
+    // 创建奖励内容区域
+    const rewardListContainer = document.createElement('div');
+    rewardListContainer.className = 'collapsible-content';
+    
+    // 创建奖励内容列表
+    const rewardList = document.createElement('ul');
+    rewardList.className = 'reward-list';
+    commonData.updates.forEach(reward => {
+        const li = document.createElement('li');
+        li.className = 'reward-item';
+        li.textContent = reward.content;
+        rewardList.appendChild(li);
+    });
+    rewardListContainer.appendChild(rewardList);
+    
+    // 将头部和内容添加到奖励区域
+    rewardContent.appendChild(rewardHeader);
+    rewardContent.appendChild(rewardListContainer);
+    
+    // 创建奖励规则区域
+    const ruleContent = document.createElement('div');
+    ruleContent.className = 'collapsible-section';
+    
+    // 创建奖励规则头部
+    const ruleHeader = document.createElement('div');
+    ruleHeader.className = 'collapsible-header';
+    
+    // 创建奖励规则标题
+    const ruleTitle = document.createElement('div');
+    ruleTitle.className = 'collapsible-title';
+    ruleTitle.textContent = '奖励规则';
+    ruleHeader.appendChild(ruleTitle);
+    
+    // 添加折叠图标
+    const ruleIcon = document.createElement('span');
+    ruleIcon.className = 'collapsible-icon';
+    ruleIcon.innerHTML = '<i class="layui-icon layui-icon-down"></i>';
+    ruleHeader.appendChild(ruleIcon);
+    
+    // 创建奖励规则内容区域
+    const ruleListContainer = document.createElement('div');
+    ruleListContainer.className = 'collapsible-content';
+    
+    // 创建奖励规则列表
+    const ruleList = document.createElement('ul');
+    ruleList.className = 'rule-list';
+    commonData.rules.forEach(rule => {
+        const li = document.createElement('li');
+        li.className = 'rule-item';
+        li.textContent = rule.content;
+        ruleList.appendChild(li);
+    });
+    ruleListContainer.appendChild(ruleList);
+    
+    // 将头部和内容添加到规则区域
+    ruleContent.appendChild(ruleHeader);
+    ruleContent.appendChild(ruleListContainer);
+    
+    // 将奖励内容和规则添加到容器
+    container.appendChild(rewardContent);
+    container.appendChild(ruleContent);
+    
+    // 添加折叠点击事件
+    const sections = [rewardContent, ruleContent];
+    sections.forEach(section => {
+        const header = section.querySelector('.collapsible-header');
+        header.addEventListener('click', function() {
+            section.classList.toggle('active');
+        });
     });
 }
 
@@ -359,11 +444,13 @@ window.onload = function() {
     renderWarningBox('main-warning-box');
     renderWarningBox('merchant-warning-box');
     renderWarningBox('guide-warning-box');
+    renderWarningBox('contribution-warning-box');
     
     // 渲染所有内容
     renderUpdates('update-section');
     renderUpdates('merchant-update-section');
     renderUpdates('guide-update-section');
+    renderUpdates('contribution-reward-section');
 
     renderPlayerList(playerData.commonSection, 'common-section');
     renderPlayerList(playerData.experienceSection, 'experience-section');
@@ -378,9 +465,11 @@ window.onload = function() {
     renderGuides('guide-hotspring-section');
     renderGuides('guide-market-section');
     renderGuides('guide-other-section');
+    renderGuides('contribution-guide-section');
     
     renderShameList('shame-section');
     renderShameList('merchant-shame-section');
+    renderShameList('contribution-shame-section');
     
     // 返回顶部和返回底部按钮
     const backToTopButtons = document.querySelectorAll('.back-to-top');

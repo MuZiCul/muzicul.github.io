@@ -52,7 +52,7 @@ const playerData = {
         },
         {
             title: "鱼塘全水层钓鱼经验+15%",
-            players: [{id: "枫亭信", uid: "000", note: "无法搜索"},
+            players: [{id: "纱猫讥笑", uid: "1131453789", note: "无法搜索"},
             ]
         }
     ],
@@ -115,7 +115,7 @@ const playerData = {
         {
             title: "动物丰收概率提升 【大】",
             players: [{id: "每天只会吨吨吨", uid: "1968001969", note: ""},
-                {id: "糱懿", uid: "418524574", note: ""},
+                {id: "糱懿", uid: "418524574", note: "@蛊荧"},
                 {id: "Shirley汤汤", uid: "134429049", note: ""},
                 {id: "开心就好哒哒哒", uid: "1658250736", note: ""},
                 {id: "沾砚", uid: "713365822", note: ""},

@@ -12,7 +12,7 @@ const merchantData = {
             type: "连翘",
             players: [
                 { id: "招财小芙", uid: "1362694097", sell:"", note: "", leaveTime: "4.1号11.48" },
-                { id: "薄雾插画烧仙草", uid: "1806991113", sell:"", note: "", leaveTime: "4.2号9.00" },
+                { id: "薄雾插画烧仙草", uid: "1806991113", sell:"1.9倍", note: "", leaveTime: "4.2号9.00" },
             ]
         },{
             type: "粉目菊",
@@ -27,7 +27,7 @@ const merchantData = {
         },{
             type: "仙客来",
             players: [
-                { id: "窈窈", uid: "1161014933", sell:"", note: "", leaveTime: "4.1号10.37" },
+                { id: "窈窈", uid: "1161014933", sell:"1.9倍", note: "", leaveTime: "4.1号10.37" },
             ]
         },
     ]

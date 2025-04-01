@@ -47,7 +47,8 @@ const merchantData = {
         },{
             type: "雪滴花",
             players: [
-                { id: "雨起花落、", uid: "1746599749", sell:"2.0", at:"", note: "", leaveTime: "4.3号02.09" },
+                { id: "雨起花落丶", uid: "1746599749", sell:"2.0", at:"", note: "", leaveTime: "4.3号02.09" },
+                { id: "BB来噜", uid: "693610369", sell:"2.0", at:"", note: "", leaveTime: "4.3号13.00" },
             ]
         },{
             type: "夏腊梅",

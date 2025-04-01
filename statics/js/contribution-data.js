@@ -115,8 +115,8 @@ const contributionData = {
                 "普泉*1",
             ]
         }, {
-            name: "姚小白丨", points: 1, contributions: [
-                "普泉*1",
+            name: "姚小白丨", points: 3.46, contributions: [
+                "普泉*1","雪滴花*1",
             ]
         }, {
             name: "乐樂樂", points: 1, contributions: [

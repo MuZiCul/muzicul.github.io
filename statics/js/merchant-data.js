@@ -49,6 +49,11 @@ const merchantData = {
             players: [
                 { id: "雨起花落、", uid: "1746599749", sell:"2.0", at:"", note: "", leaveTime: "4.3号02.09" },
             ]
+        },{
+            type: "雪滴花",
+            players: [
+                { id: "超爱麻薯小卷、", uid: "1746599749", sell:"1.9", at:"@姚小白丨", note: "", leaveTime: "4.2号21.00" },
+            ]
         },
     ]
 }; 

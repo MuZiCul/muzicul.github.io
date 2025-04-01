@@ -12,7 +12,6 @@ const merchantData = {
             players: [
                 { id: "招财小芙", uid: "1362694097", sell:"2.0", at:"", note: "", leaveTime: "4.1号11.48" },
                 { id: "炸诈吒弹", uid: "724040624", sell:"2.0", at:"", note: "", leaveTime: "4.2号21.03" },
-                { id: "寄恒月", uid: "545330108", sell:"2.0", at:"", note: "", leaveTime: "4.2号22.05" },
                 { id: "薄雾插画烧仙草", uid: "1806991113", sell:"1.9", at:"", note: "", leaveTime: "4.2号9.00" },
             ]
         },{
@@ -38,7 +37,7 @@ const merchantData = {
         },{
             type: "丁香花",
             players: [
-                { id: "DT丨Silver", uid: "720457468", sell:"2.0", at:"@充甜宝ovo", note: "送猫头鹰", leaveTime: "4.1号03.37" },
+                { id: "000", uid: "000", sell:"2.0", at:"", note: "", leaveTime: "4.1号03.37" },
             ]
         },{
             type: "康乃馨",

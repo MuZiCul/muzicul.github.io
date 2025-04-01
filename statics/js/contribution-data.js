@@ -64,7 +64,7 @@ const contributionData = {
             ]
         }, {
             name: "久玥丨", points: 8.33, contributions: [
-                "鱼卡*1","普泉*1","莲花掌*1",
+                "鱼卡*1","普彩*1","莲花掌*1",
             ]
         }, {
             name: "雪萌萌", points: 4, contributions: [
@@ -100,91 +100,91 @@ const contributionData = {
             ]
         }, {
             name: "糖糖promax", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "曲奇怮", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "多年以后ut", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "半颜吖", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "姚小白丨", points: 3.46, contributions: [
-                "普泉*1","雪滴花*1",
+                "普彩*1","雪滴花*1",
             ]
         }, {
             name: "乐樂樂", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "GK小杰", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "開心龙", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "冬苶", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "小狗羔羔", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "纱猫讥笑", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "我菜我认叭", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "2号是狼呀快跑", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "你说话小点声", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "Sunshine汤圆", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "是小夭哇", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "夏日菠萝啤", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "BB来噜", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "你我如星月", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "墟里星禾", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "奶优宝宝", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "柴可夫斯基", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "每天只会吨吨吨", points: 3, contributions: [
@@ -192,19 +192,19 @@ const contributionData = {
             ]
         }, {
             name: "蛊荧", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "Shirley汤汤", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "开心就好哒哒哒", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "沾砚", points: 1, contributions: [
-                "普泉*1",
+                "普彩*1",
             ]
         }, {
             name: "寄恒月", points: 4.33, contributions: [
@@ -255,8 +255,8 @@ const contributionData = {
                 "丁香花*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "吃土豆_不削皮", points: 1, contributions: [
+                "普彩*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

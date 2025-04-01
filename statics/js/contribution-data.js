@@ -63,8 +63,8 @@ const contributionData = {
                 "鱼卡*1",
             ]
         }, {
-            name: "久玥丨", points: 10.33, contributions: [
-                "鱼卡*1","作物丰收*1","莲花掌*1",
+            name: "久玥丨", points: 8.33, contributions: [
+                "鱼卡*1","普泉*1","莲花掌*1",
             ]
         }, {
             name: "雪萌萌", points: 4, contributions: [
@@ -187,8 +187,8 @@ const contributionData = {
                 "普泉*1",
             ]
         }, {
-            name: "每天只会吨吨吨", points: 1, contributions: [
-                "普泉*1",
+            name: "每天只会吨吨吨", points: 3, contributions: [
+                "作物丰收*1",
             ]
         }, {
             name: "蛊荧", points: 1, contributions: [
@@ -251,8 +251,8 @@ const contributionData = {
                 "丁香花*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "二余温道", points: 3.3, contributions: [
+                "丁香花*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

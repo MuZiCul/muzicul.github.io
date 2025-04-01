@@ -38,6 +38,7 @@ const merchantData = {
             type: "丁香花",
             players: [
                 { id: "别惹如意", uid: "336553105", sell:"2.0", at:"", note: "", leaveTime: "4.3号12.00" },
+                { id: "迷幻律动柚子茶", uid: "35960144", sell:"2.0", at:"", note: "", leaveTime: "4.3号14.36" },
             ]
         },{
             type: "康乃馨",

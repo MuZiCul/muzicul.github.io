@@ -259,8 +259,8 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "女乃_米唐", points: 3.3, contributions: [
+                "连翘*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

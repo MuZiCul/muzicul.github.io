@@ -12,6 +12,7 @@ const merchantData = {
             players: [
                 { id: "招财小芙", uid: "1362694097", sell:"2.0", at:"", note: "", leaveTime: "4.1号11.48" },
                 { id: "炸诈吒弹", uid: "724040624", sell:"2.0", at:"", note: "", leaveTime: "4.2号21.03" },
+                { id: "女乃_米唐", uid: "322908505", sell:"2.0", at:"", note: "", leaveTime: "4.3号10.34" },
                 { id: "薄雾插画烧仙草", uid: "1806991113", sell:"1.9", at:"", note: "", leaveTime: "4.2号9.00" },
             ]
         },{

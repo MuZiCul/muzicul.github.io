@@ -40,6 +40,16 @@ const merchantData = {
             players: [
                 { id: "DT丨Silver", uid: "720457468", sell:"2.0", at:"@充甜宝ovo", note: "送猫头鹰", leaveTime: "4.1号03.37" },
             ]
+        },{
+            type: "康乃馨",
+            players: [
+                { id: "猫饼oxo", uid: "942674015", sell:"2.0", at:"", note: "", leaveTime: "4.1号18.00" },
+            ]
+        },{
+            type: "雪滴花",
+            players: [
+                { id: "雨起花落、", uid: "1746599749", sell:"2.0", at:"", note: "", leaveTime: "4.3号02.09" },
+            ]
         },
     ]
 }; 

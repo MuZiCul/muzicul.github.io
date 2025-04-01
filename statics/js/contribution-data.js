@@ -175,7 +175,7 @@ const contributionData = {
                 "普泉*1",
             ]
         }, {
-            name: "福生NixiaK", points: 1, contributions: [
+            name: "墟里星禾", points: 1, contributions: [
                 "普泉*1",
             ]
         }, {
@@ -247,8 +247,8 @@ const contributionData = {
                 "雪滴花*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "别惹如意", points: 3.3, contributions: [
+                "丁香花*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

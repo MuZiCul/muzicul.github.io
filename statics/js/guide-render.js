@@ -16,6 +16,9 @@ function renderGuides(containerId) {
         case 'guide-other-section':
             renderFlowerGuide(container);
             break;
+        case 'guide-Friday-section':
+            renderFriday(container);
+            break;
     }
 }
 
@@ -67,6 +70,50 @@ function renderFlowerGuide(container) {
     if (!guideData.flowerGuide || !guideData.flowerGuide.guides) return;
 
     guideData.flowerGuide.guides.forEach(guide => {
+        const guideSection = document.createElement('div');
+        guideSection.className = 'collapsible-section';
+
+        const header = document.createElement('div');
+        header.className = 'collapsible-header';
+
+        const title = document.createElement('div');
+        title.className = 'collapsible-title';
+        title.textContent = guide.title;
+
+        header.appendChild(title);
+
+        const icon = document.createElement('span');
+        icon.className = 'collapsible-icon';
+        icon.innerHTML = '<i class="layui-icon layui-icon-down"></i>';
+        header.appendChild(icon);
+
+        const content = document.createElement('div');
+        content.className = 'collapsible-content';
+
+        const tipsList = document.createElement('ul');
+        tipsList.className = 'tips-list';
+        guide.tips.forEach(tip => {
+            const li = document.createElement('li');
+            li.textContent = tip;
+            tipsList.appendChild(li);
+        });
+
+        content.appendChild(tipsList);
+        guideSection.appendChild(header);
+        guideSection.appendChild(content);
+        container.appendChild(guideSection);
+
+        // 添加点击事件
+        header.addEventListener('click', () => {
+            guideSection.classList.toggle('active');
+        });
+    });
+}
+
+function renderFriday(container) {
+    if (!guideData.FridayGuide || !guideData.FridayGuide.guides) return;
+
+    guideData.FridayGuide.guides.forEach(guide => {
         const guideSection = document.createElement('div');
         guideSection.className = 'collapsible-section';
 

@@ -465,6 +465,7 @@ window.onload = function() {
     renderGuides('guide-hotspring-section');
     renderGuides('guide-market-section');
     renderGuides('guide-other-section');
+    renderGuides('guide-Friday-section');
     renderGuides('contribution-guide-section');
     
     renderShameList('shame-section');

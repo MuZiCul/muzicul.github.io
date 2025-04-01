@@ -135,14 +135,28 @@ function renderFriday(container) {
         content.className = 'collapsible-content';
 
         const tipsList = document.createElement('ul');
-        tipsList.className = 'tips-list';
+        tipsList.className = 'rule-list';
         guide.tips.forEach(tip => {
             const li = document.createElement('li');
-            li.textContent = tip;
+            li.className = 'rule-item';
+            li.textContent = tip.content;
             tipsList.appendChild(li);
         });
 
         content.appendChild(tipsList);
+
+
+    //      const ruleList = document.createElement('ul');
+    // ruleList.className = 'rule-list';
+    // commonData.rules.forEach(rule => {
+    //     const li = document.createElement('li');
+    //     li.className = 'rule-item';
+    //     li.textContent = rule.content;
+    //     ruleList.appendChild(li);
+    // });
+    // ruleListContainer.appendChild(ruleList);
+
+
         guideSection.appendChild(header);
         guideSection.appendChild(content);
         container.appendChild(guideSection);

@@ -256,7 +256,55 @@ function renderPlayerList(data, containerId) {
 function renderMerchants(containerId) {
     const container = document.getElementById(containerId);
     
+    // 获取当前时间
+    const now = new Date();
+    const currentMonth = now.getMonth() + 1; // 月份从0开始，所以+1
+    const currentDate = now.getDate();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    
+    // 解析离开时间并判断是否已过期
+    function isTimeValid(leaveTimeStr) {
+        // 如果没有离开时间数据，显示该商人
+        if (!leaveTimeStr) return true;
+        
+        // 解析格式如"4.1号20.36"的离开时间
+        try {
+            const match = leaveTimeStr.match(/(\d+)\.(\d+)号(\d+)\.(\d+)/);
+            if (!match) return true; // 如果格式不匹配，默认显示
+            
+            const leaveMonth = parseInt(match[1]);
+            const leaveDate = parseInt(match[2]);
+            const leaveHour = parseInt(match[3]);
+            const leaveMinute = parseInt(match[4]);
+            
+            // 比较日期和时间
+            if (leaveMonth < currentMonth) return false;
+            if (leaveMonth > currentMonth) return true;
+            
+            // 同月比较日期
+            if (leaveDate < currentDate) return false;
+            if (leaveDate > currentDate) return true;
+            
+            // 同日比较时间
+            if (leaveHour < currentHour) return false;
+            if (leaveHour > currentHour) return true;
+            
+            // 同小时比较分钟
+            return leaveMinute >= currentMinute;
+        } catch (e) {
+            console.error("解析离开时间出错:", e);
+            return true; // 出错时默认显示商人
+        }
+    }
+    
     merchantData.merchants.forEach(merchant => {
+        // 过滤已过期的商人
+        const validPlayers = merchant.players.filter(player => isTimeValid(player.leaveTime));
+        
+        // 如果该类型的商人都已离开，则不显示该折叠区域
+        if (validPlayers.length === 0) return;
+        
         // 创建折叠区域
         const sectionDiv = document.createElement('div');
         sectionDiv.className = 'collapsible-section';
@@ -286,7 +334,7 @@ function renderMerchants(containerId) {
         const ul = document.createElement('ul');
         ul.className = 'merchant-list';
         
-        merchant.players.forEach(player => {
+        validPlayers.forEach(player => {
             const li = document.createElement('li');
             li.className = 'merchant-item';
             
@@ -309,8 +357,6 @@ function renderMerchants(containerId) {
                 noteSpan.textContent = player.note;
                 nameSpan.appendChild(noteSpan);
             }
-
-
             
             // 如果有note，创建标签
             if (player.at) {

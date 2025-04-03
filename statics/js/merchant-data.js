@@ -11,6 +11,7 @@ const merchantData = {
             type: "连翘",
             players: [
                 { id: "炸诈吒弹", uid: "724040624", sell:"2.0", at:"", note: "", leaveTime: "4.2号21.03" },
+                { id: "000", uid: "000", sell:"2.0", at:"", note: "", leaveTime: "3.31号23.00" },
                 { id: "女乃_米唐", uid: "322908505", sell:"2.0", at:"", note: "", leaveTime: "4.3号10.34" },
                 { id: "薄雾插画烧仙草", uid: "1806991113", sell:"1.9", at:"", note: "", leaveTime: "4.2号9.00" },
             ]
@@ -43,7 +44,7 @@ const merchantData = {
         },{
             type: "康乃馨",
             players: [
-                { id: "000", uid: "000", sell:"2.0", at:"", note: "", leaveTime: "4.1号18.00" },
+                { id: "萌小只", uid: "1773644104", sell:"2.0", at:"", note: "", leaveTime: "4.5号16.00" },
             ]
         },{
             type: "雪滴花",

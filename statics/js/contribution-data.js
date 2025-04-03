@@ -67,8 +67,8 @@ const contributionData = {
                 "鱼卡*1","普彩*1","莲花掌*1",
             ]
         }, {
-            name: "雪萌萌", points: 4, contributions: [
-                "鱼卡*1",
+            name: "雪萌萌", points: 7.33, contributions: [
+                "鱼卡*1","康乃馨*1",
             ]
         }, {
             name: "梦中z08", points: 3, contributions: [

@@ -833,4 +833,49 @@ body {
         padding: 8px 20px;
         font-size: 14px;
     }
+}
+
+/* 活动列表样式 */
+.activity-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-item {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 35px;
+}
+
+.activity-item:before {
+    content: "•";
+    position: absolute;
+    left: 15px;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.activity-item:hover {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .activity-item {
+        padding: 10px 12px;
+        padding-left: 30px;
+        font-size: 14px;
+    }
+    
+    .activity-item:before {
+        left: 12px;
+    }
 } 

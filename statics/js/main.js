@@ -417,9 +417,6 @@ function renderMerchants(containerId) {
     });
 }
 
-
-    
-
 // 渲染耻辱柱
 function renderShameList(containerId) {
     const container = document.getElementById(containerId);
@@ -481,115 +478,261 @@ function renderShameList(containerId) {
     container.appendChild(ul);
 }
 
+// 渲染本周活动内容
+function renderWeekActivity(containerId) {
+    const container = document.getElementById(containerId);
+    
+    // 获取当前日期
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const currentMonth = now.getMonth() + 1; // 月份从0开始，所以+1
+    const currentDate = now.getDate();
+    
+    // 格式化日期为YYYY-MM-DD格式
+    const formatDate = (year, month, day) => {
+        return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+    };
+    
+    const currentDateStr = formatDate(currentYear, currentMonth, currentDate);
+    
+    // 查找当前日期所在的周
+    let currentWeek = null;
+    
+    // 检查2025年周数表
+    if (WeekData["2025年周数表"]) {
+        currentWeek = WeekData["2025年周数表"].find(week => {
+            const startDate = new Date(week.起始日期);
+            const endDate = new Date(week.结束日期);
+            const currentDateObj = new Date(currentDateStr);
+            
+            return currentDateObj >= startDate && currentDateObj <= endDate;
+        });
+    }
+    
+    // 创建活动内容区域
+    const activityContent = document.createElement('div');
+    activityContent.className = 'collapsible-section';
+    
+    // 创建活动内容头部
+    const activityHeader = document.createElement('div');
+    activityHeader.className = 'collapsible-header';
+    
+    // 创建活动内容标题
+    const activityTitle = document.createElement('div');
+    activityTitle.className = 'collapsible-title';
+    
+    if (currentWeek) {
+        activityTitle.textContent = `第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期})`;
+    } else {
+        activityTitle.textContent = '元梦星期五';
+    }
+    
+    activityHeader.appendChild(activityTitle);
+    
+    // 添加折叠图标
+    const activityIcon = document.createElement('span');
+    activityIcon.className = 'collapsible-icon';
+    activityIcon.innerHTML = '<i class="layui-icon layui-icon-down"></i>';
+    activityHeader.appendChild(activityIcon);
+    
+    // 创建活动内容区域
+    const activityListContainer = document.createElement('div');
+    activityListContainer.className = 'collapsible-content';
+    
+    // 创建活动内容列表
+    const activityList = document.createElement('ul');
+    activityList.className = 'activity-list';
+    
+    if (currentWeek && currentWeek.活动内容 && currentWeek.活动内容.length > 0) {
+        currentWeek.活动内容.forEach(activity => {
+            const li = document.createElement('li');
+            li.className = 'activity-item';
+            li.textContent = activity;
+            activityList.appendChild(li);
+        });
+    } else {
+        const li = document.createElement('li');
+        li.className = 'activity-item';
+        li.textContent = '暂无活动信息';
+        activityList.appendChild(li);
+    }
+    
+    activityListContainer.appendChild(activityList);
+    
+    // 将头部和内容添加到活动区域
+    activityContent.appendChild(activityHeader);
+    activityContent.appendChild(activityListContainer);
+    
+    // 添加折叠点击事件
+    activityHeader.addEventListener('click', function() {
+        activityContent.classList.toggle('active');
+    });
+    
+    // 将活动内容添加到容器
+    container.appendChild(activityContent);
+}
+
 // 页面加载完成后
 window.onload = function() {
-    // 隐藏加载动画
-    document.getElementById('loading').style.display = 'none';
-    
-    // 渲染警告框
-    renderWarningBox('main-warning-box');
-    renderWarningBox('merchant-warning-box');
-    renderWarningBox('guide-warning-box');
-    renderWarningBox('contribution-warning-box');
-    
-    // 渲染所有内容
-    renderUpdates('update-section');
-    renderUpdates('merchant-update-section');
-    renderUpdates('guide-update-section');
-    renderUpdates('contribution-reward-section');
-
-    renderPlayerList(playerData.commonSection, 'common-section');
-    renderPlayerList(playerData.experienceSection, 'experience-section');
-    renderPlayerList(playerData.skillSection, 'skill-section');
-    renderPlayerList(playerData.coinSection, 'coin-section');
-    
-    renderMerchants('merchant-info-section');
-    
-    // 渲染各页面的攻略内容
-    renderGuides('guide-section');
-    renderGuides('merchant-guide-section');
-    renderGuides('guide-hotspring-section');
-    renderGuides('guide-market-section');
-    renderGuides('guide-other-section');
-    renderGuides('guide-Friday-section');
-    renderGuides('contribution-guide-section');
-    
-    renderShameList('shame-section');
-    renderShameList('merchant-shame-section');
-    renderShameList('contribution-shame-section');
-    
-    // 返回顶部和返回底部按钮
-    const backToTopButtons = document.querySelectorAll('.back-to-top');
-    const backToBottomButtons = document.querySelectorAll('.back-to-bottom');
-    
-    window.addEventListener('scroll', function() {
-        // 计算页面总高度
-        const totalHeight = document.body.scrollHeight;
-        // 计算视口高度
-        const viewportHeight = window.innerHeight;
-        // 计算当前滚动位置
-        const scrollPosition = window.pageYOffset;
+    try {
+        // 显示调试信息
+        console.log("页面加载完成，开始渲染内容");
         
-        // 当滚动超过300px时显示返回顶部按钮
-        if (scrollPosition > 300) {
-            backToTopButtons.forEach(btn => btn.classList.add('visible'));
-        } else {
-            backToTopButtons.forEach(btn => btn.classList.remove('visible'));
-        }
+        // 检查必要的全局变量
+        // const debugInfo = document.createElement('div');
+        // debugInfo.id = 'debug-info';
+        // debugInfo.style.cssText = 'position:fixed;top:10px;right:10px;background:rgba(255,0,0,0.8);color:white;padding:10px;z-index:9999;border-radius:5px;font-size:12px;';
+        //
+        // let missingData = [];
+        // if (typeof commonData === 'undefined') missingData.push('commonData');
+        // if (typeof playerData === 'undefined') missingData.push('playerData');
+        // if (typeof merchantData === 'undefined') missingData.push('merchantData');
+        // if (typeof WeekData === 'undefined') missingData.push('WeekData');
+        //
+        // if (missingData.length > 0) {
+        //     debugInfo.textContent = `缺少数据: ${missingData.join(', ')}`;
+        //     document.body.appendChild(debugInfo);
+        //     console.error(`缺少必要数据: ${missingData.join(', ')}`);
+        // } else {
+        //     debugInfo.textContent = "数据已加载";
+        //     debugInfo.style.background = 'rgba(0,255,0,0.8)';
+        //     document.body.appendChild(debugInfo);
+        //     console.log("所有必要数据已加载");
+        // }
         
-        // 当距离底部超过300px时显示返回底部按钮
-        if (totalHeight - viewportHeight - scrollPosition > 300) {
-            backToBottomButtons.forEach(btn => btn.classList.add('visible'));
-        } else {
-            backToBottomButtons.forEach(btn => btn.classList.remove('visible'));
+        // 隐藏加载动画
+        document.getElementById('loading').style.display = 'none';
+        
+        // 渲染警告框
+        console.log("渲染警告框");
+        renderWarningBox('main-warning-box');
+        renderWarningBox('merchant-warning-box');
+        renderWarningBox('guide-warning-box');
+        renderWarningBox('contribution-warning-box');
+        
+        // 渲染所有内容
+        console.log("渲染月度最佳温泉贡献奖励");
+        renderUpdates('update-section');
+        renderUpdates('merchant-update-section');
+        renderUpdates('guide-update-section');
+        renderUpdates('contribution-reward-section');
+        
+        // 渲染本周活动
+        console.log("渲染本周活动");
+        renderWeekActivity('week-activity-section');
+        
+        console.log("渲染常用区");
+        renderPlayerList(playerData.commonSection, 'common-section');
+        console.log("渲染经验区");
+        renderPlayerList(playerData.experienceSection, 'experience-section');
+        console.log("渲染熟练度区");
+        renderPlayerList(playerData.skillSection, 'skill-section');
+        console.log("渲染金币区");
+        renderPlayerList(playerData.coinSection, 'coin-section');
+        
+        console.log("渲染商人信息");
+        renderMerchants('merchant-info-section');
+        
+        // 渲染各页面的攻略内容
+        console.log("渲染攻略内容");
+        renderGuides('guide-section');
+        renderGuides('merchant-guide-section');
+        renderGuides('guide-hotspring-section');
+        renderGuides('guide-market-section');
+        renderGuides('guide-other-section');
+        renderGuides('guide-Friday-section');
+        renderGuides('contribution-guide-section');
+        
+        console.log("渲染耻辱柱");
+        renderShameList('shame-section');
+        renderShameList('merchant-shame-section');
+        renderShameList('contribution-shame-section');
+        
+        // 返回顶部和返回底部按钮
+        const backToTopButtons = document.querySelectorAll('.back-to-top');
+        const backToBottomButtons = document.querySelectorAll('.back-to-bottom');
+        
+        window.addEventListener('scroll', function() {
+            // 计算页面总高度
+            const totalHeight = document.body.scrollHeight;
+            // 计算视口高度
+            const viewportHeight = window.innerHeight;
+            // 计算当前滚动位置
+            const scrollPosition = window.pageYOffset;
+            
+            // 当滚动超过300px时显示返回顶部按钮
+            if (scrollPosition > 300) {
+                backToTopButtons.forEach(btn => btn.classList.add('visible'));
+            } else {
+                backToTopButtons.forEach(btn => btn.classList.remove('visible'));
+            }
+            
+            // 当距离底部超过300px时显示返回底部按钮
+            if (totalHeight - viewportHeight - scrollPosition > 300) {
+                backToBottomButtons.forEach(btn => btn.classList.add('visible'));
+            } else {
+                backToBottomButtons.forEach(btn => btn.classList.remove('visible'));
+            }
+        });
+        
+        backToTopButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        backToBottomButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // 导航按钮切换功能
+        const navButtons = document.querySelectorAll('.nav-btn');
+        
+        navButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // 移除所有按钮的active类
+                navButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // 给当前点击的按钮添加active类
+                this.classList.add('active');
+                
+                // 获取目标内容区域
+                const targetId = this.getAttribute('data-target');
+                
+                // 隐藏所有内容区域
+                document.querySelectorAll('.content-area').forEach(area => {
+                    area.classList.remove('active');
+                });
+                
+                // 显示目标内容区域
+                document.getElementById(targetId).classList.add('active');
+                
+                // 滚动到顶部
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    } catch (error) {
+        // 创建错误信息显示
+        const errorInfo = document.createElement('div');
+        errorInfo.style.cssText = 'position:fixed;top:10px;left:10px;background:rgba(255,0,0,0.8);color:white;padding:10px;z-index:9999;border-radius:5px;max-width:80%;';
+        errorInfo.innerHTML = `<strong>错误:</strong> ${error.message}<br><pre>${error.stack}</pre>`;
+        document.body.appendChild(errorInfo);
+        console.error('页面加载错误:', error);
+        
+        // 隐藏加载动画
+        if (document.getElementById('loading')) {
+            document.getElementById('loading').style.display = 'none';
         }
-    });
-    
-    backToTopButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    });
-    
-    backToBottomButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: 'smooth'
-            });
-        });
-    });
-    
-    // 导航按钮切换功能
-    const navButtons = document.querySelectorAll('.nav-btn');
-    
-    navButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            // 移除所有按钮的active类
-            navButtons.forEach(btn => btn.classList.remove('active'));
-            
-            // 给当前点击的按钮添加active类
-            this.classList.add('active');
-            
-            // 获取目标内容区域
-            const targetId = this.getAttribute('data-target');
-            
-            // 隐藏所有内容区域
-            document.querySelectorAll('.content-area').forEach(area => {
-                area.classList.remove('active');
-            });
-            
-            // 显示目标内容区域
-            document.getElementById(targetId).classList.add('active');
-            
-            // 滚动到顶部
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    });
+    }
 }; 

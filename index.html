@@ -9,6 +9,8 @@
     <!-- 引入自定义样式 -->
     <link rel="stylesheet" href="statics/css/style.css">
     <link rel="stylesheet" href="statics/css/mobile.css">
+    <!-- 引入数据文件 -->
+    <script src="statics/js/Week.js"></script>
 </head>
 <body>
     <!-- 加载动画 -->
@@ -40,6 +42,12 @@
             <div class="section-card" id="update-section">
                 <h2 class="section-title">月度最佳温泉贡献奖励</h2>
                 <!-- 动态加载奖励内容 -->
+            </div>
+
+            <!-- 本周活动 -->
+            <div class="section-card" id="week-activity-section">
+                <h2 class="section-title">元梦星期五</h2>
+                <!-- 动态加载本周活动内容 -->
             </div>
 
             <!-- 经验区 -->
@@ -222,16 +230,52 @@
 
     <!-- 引入Layui JS -->
     <script src="https://www.layuicdn.com/layui-v2.6.8/layui.js"></script>
-    <!-- 引入数据文件 -->
+    <!-- 先引入数据文件 -->
+    <script src="statics/js/Week.js"></script>
     <script src="statics/js/common-data.js"></script>
     <script src="statics/js/player-data.js"></script>
     <script src="statics/js/merchant-data.js"></script>
     <script src="statics/js/guide-data.js"></script>
     <script src="statics/js/contribution-data.js"></script>
-    <!-- 引入自定义脚本 -->
+    <!-- 后引入渲染脚本 -->
     <script src="statics/js/guide-render.js"></script>
     <script src="statics/js/contribution-render.js"></script>
     <script src="statics/js/main.js"></script>
     <script src="statics/js/browser-check.js"></script>
+    <!-- 检查未加载的脚本 -->
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        function checkScript(src) {
+            return document.querySelector('script[src="' + src + '"]') !== null;
+        }
+        
+        // 检查核心脚本是否加载
+        var scripts = [
+            'statics/js/Week.js',
+            'statics/js/common-data.js',
+            'statics/js/player-data.js',
+            'statics/js/merchant-data.js',
+            'statics/js/guide-data.js',
+            'statics/js/contribution-data.js',
+            'statics/js/guide-render.js',
+            'statics/js/contribution-render.js',
+            'statics/js/main.js',
+            'statics/js/browser-check.js'
+        ];
+        
+        var missingScripts = scripts.filter(function(src) {
+            return !checkScript(src);
+        });
+        
+        if (missingScripts.length > 0) {
+            console.error('缺少以下脚本文件:', missingScripts.join(', '));
+            // 创建错误提示
+            var errorDiv = document.createElement('div');
+            errorDiv.style.cssText = 'position:fixed;top:10px;left:10px;background:rgba(255,0,0,0.8);color:white;padding:10px;z-index:9999;border-radius:5px;font-size:14px;';
+            errorDiv.textContent = '缺少脚本文件: ' + missingScripts.join(', ');
+            document.body.appendChild(errorDiv);
+        }
+    });
+    </script>
 </body>
 </html>

@@ -287,6 +287,46 @@ const contributionData = {
                 "连翘*1",
             ]
         }, {
+            name: "自觉委托猫咪", points: 3.03, contributions: [
+                "康乃馨*1",
+            ]
+        }, {
+            name: "洗白", points: 2.8, contributions: [
+                "樱花*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 0, contributions: [
+                "000*1",
+            ]
+        }, {
             name: "000", points: 0, contributions: [
                 "000*1",
             ]

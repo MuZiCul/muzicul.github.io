@@ -7,7 +7,7 @@ const merchantData = {
             players: [
                 { id: "梨宝baby", uid: "5861737", sell:"2.0", at:"", note: "", leaveTime: "4.6号12.37" },
                 { id: "世间难遇一念", uid: "1897784871", sell:"2.0", at:"", note: "", leaveTime: "4.4号12.37" },
-                { id: "XXXYy", uid: "904745578", sell:"2.0", at:"", note: "", leaveTime: "4.4号12.02" },
+                { id: "洗白", uid: "1708851718", sell:"1.9", at:"", note: "", leaveTime: "4.6号19.29" },
             ]
         },{
             type: "连翘",
@@ -46,6 +46,7 @@ const merchantData = {
         },{
             type: "康乃馨",
             players: [
+                { id: "直觉委托喵咪", uid: "318064233", sell:"2.0", at:"", note: "", leaveTime: "4.6号10.00" },
                 { id: "萌小只", uid: "1773644104", sell:"2.0", at:"@雪萌萌", note: "", leaveTime: "4.5号16.00" },
             ]
         },{

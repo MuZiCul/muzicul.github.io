@@ -27,8 +27,8 @@ const contributionData = {
                 "扩容*1",
             ]
         }, {
-            name: "灯塔街溜子", points: 4, contributions: [
-                "扩容*1",
+            name: "灯塔街溜子", points: 6.1, contributions: [
+                "扩容*1","虞美人*1",
             ]
         }, {
             name: "二百是只瘸猫", points: 4, contributions: [
@@ -55,8 +55,8 @@ const contributionData = {
                 "鱼卡*1",
             ]
         }, {
-            name: "XXXYy", points: 4, contributions: [
-                "鱼卡*1",
+            name: "XXXYy", points: 6.82, contributions: [
+                "鱼卡*1","樱花*1",
             ]
         }, {
             name: "二粒糖糖", points: 4, contributions: [
@@ -263,24 +263,24 @@ const contributionData = {
                 "连翘*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "梨宝baby", points: 2.8, contributions: [
+                "樱花*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "芙⼉", points: 2.64, contributions: [
+                "雪滴花*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "世间难遇一念", points: 1.88, contributions: [
+                "樱花*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "第六只燕子", points: 2.1, contributions: [
+                "虞美人*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "小朋友559", points: 1.64, contributions: [
+                "夏腊梅*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

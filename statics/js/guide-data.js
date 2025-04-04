@@ -140,26 +140,26 @@ const guideData = {
             {
                 name: "双倍玉蝶",
                 tag: "神农·百花触发，X8作物",
-                singleAmount: 4200,
+                singleAmount: 4300,
                 singleValue: 10.26,
-                totalAmount: 12600,
+                totalAmount: 12900,
                 totalValue: 30.78
             },
             {
                 name: "双倍玄晶莲",
                 tag: "神农·月华触发，X16作物",
-                singleAmount: '未知',
+                singleAmount: 2400,
                 singleValue: '未知',
-                totalAmount: '未知',
-                totalValue: '未知'
+                totalAmount: 7200,
+                totalValue: '约35'
             },
             {
                 name: "双倍紫羽兰",
                 tag: "神农·月华触发，X8作物",
-                singleAmount: '未知',
+                singleAmount: 4700,
                 singleValue: '未知',
-                totalAmount: '未知',
-                totalValue: '未知'
+                totalAmount: 14100,
+                totalValue: '约40'
             },
             {
                 name: "双倍紫梦鸢",

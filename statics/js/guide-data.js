@@ -157,9 +157,9 @@ const guideData = {
                 name: "双倍紫羽兰",
                 tag: "神农·月华触发，X8作物",
                 singleAmount: 4700,
-                singleValue: '未知',
+                singleValue: 15.35,
                 totalAmount: 14100,
-                totalValue: '约40'
+                totalValue: 46.05
             },
             {
                 name: "双倍紫梦鸢",

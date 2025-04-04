@@ -46,7 +46,7 @@ const merchantData = {
         },{
             type: "康乃馨",
             players: [
-                { id: "萌小只", uid: "1773644104", sell:"2.0", at:"", note: "", leaveTime: "4.5号16.00" },
+                { id: "萌小只", uid: "1773644104", sell:"2.0", at:"@雪萌萌", note: "", leaveTime: "4.5号16.00" },
             ]
         },{
             type: "雪滴花",

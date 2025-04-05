@@ -299,8 +299,8 @@ const contributionData = {
                 "丁香*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "旧版刊", points: 5, contributions: [
+                "假ID*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

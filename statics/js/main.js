@@ -27,8 +27,14 @@ function copyText(text) {
 function getNoteClass(note) {
     if (note.includes('无需艾特') || note.includes('无需@')) {
         return 'at-no-mention';
-    } else if (note.includes('请先艾特') || note.includes('艾特') || note.includes('@') || note.includes('戳')) {
+    } else {
         return 'at-need-mention';
+    }
+}
+
+function getSellClass(sell) {
+    if (sell.includes('0')) {
+        return 'at-no-mention';
     } else {
         return 'at-default';
     }
@@ -351,13 +357,13 @@ function renderMerchants(containerId) {
 
             if (player.sell) {
                 const sellSpan = document.createElement('span');
-                sellSpan.className = `player-note ${getNoteClass(player.sell)}`;
+                sellSpan.className = `player-note ${getSellClass(player.at)}`;
                 sellSpan.textContent = player.sell;
                 nameSpan.appendChild(sellSpan);
             }
             if (player.note) {
                 const noteSpan = document.createElement('span');
-                noteSpan.className = `player-note note-default`;
+                noteSpan.className = `player-note noat-no-mention`;
                 noteSpan.textContent = player.note;
                 nameSpan.appendChild(noteSpan);
             }

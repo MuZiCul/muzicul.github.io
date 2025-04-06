@@ -275,7 +275,7 @@ const contributionData = {
                 "樱花*1",
             ]
         }, {
-            name: "第六只燕子", points: 2.1, contributions: [
+            name: "充甜宝", points: 2.1, contributions: [
                 "虞美人*1",
             ]
         }, {

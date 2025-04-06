@@ -878,4 +878,44 @@ body {
     .activity-item:before {
         left: 12px;
     }
+}
+
+/* 元梦星期五单行活动样式 */
+.friday-activity-row {
+    padding: 15px;
+    background-color: var(--light-bg);
+    border-radius: 10px;
+    font-size: 15px;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.friday-activity-row:hover {
+    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.friday-activity-icon {
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .friday-activity-row {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .friday-activity-icon {
+        font-size: 15px;
+        margin-right: 8px;
+    }
 } 

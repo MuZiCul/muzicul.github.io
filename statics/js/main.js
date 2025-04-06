@@ -503,95 +503,114 @@ function renderShameList(containerId) {
 // 渲染本周活动内容
 function renderWeekActivity(containerId) {
     const container = document.getElementById(containerId);
-
+    
     // 获取当前日期
     const now = new Date();
     const currentYear = now.getFullYear();
     const currentMonth = now.getMonth() + 1; // 月份从0开始，所以+1
     const currentDate = now.getDate();
-
+    
     // 格式化日期为YYYY-MM-DD格式
     const formatDate = (year, month, day) => {
         return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
     };
-
+    
     const currentDateStr = formatDate(currentYear, currentMonth, currentDate);
-
+    
     // 查找当前日期所在的周
     let currentWeek = null;
-
+    
     // 检查2025年周数表
     if (WeekData["2025年周数表"]) {
         currentWeek = WeekData["2025年周数表"].find(week => {
             const startDate = new Date(week.起始日期);
             const endDate = new Date(week.结束日期);
             const currentDateObj = new Date(currentDateStr);
-
+            
             return currentDateObj >= startDate && currentDateObj <= endDate;
         });
     }
-
-    // 创建活动内容区域
-    const activityContent = document.createElement('div');
-    activityContent.className = 'collapsible-section';
-
-    // 创建活动内容头部
-    const activityHeader = document.createElement('div');
-    activityHeader.className = 'collapsible-header';
-
-    // 创建活动内容标题
-    const activityTitle = document.createElement('div');
-    activityTitle.className = 'collapsible-title';
-
-    if (currentWeek) {
-        activityTitle.textContent = `第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期})`;
+    
+    // 检查活动内容的数量
+    const hasActivities = currentWeek && currentWeek.活动内容 && currentWeek.活动内容.length > 0;
+    const singleActivity = hasActivities && currentWeek.活动内容.length === 1;
+    
+    // 如果只有一条活动，直接显示，不使用折叠功能
+    if (singleActivity) {
+        // 创建单行显示的活动内容
+        const activityRow = document.createElement('div');
+        activityRow.className = 'friday-activity-row';
+        
+        // 修改显示格式，使用更简洁的样式
+        activityRow.innerHTML = `<span class="friday-activity-icon">✿</span> 第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期}): ${currentWeek.活动内容[0]}`;
+        
+        // 将活动内容添加到容器
+        container.appendChild(activityRow);
     } else {
-        activityTitle.textContent = '元梦星期五';
-    }
-
-    activityHeader.appendChild(activityTitle);
-
-    // 添加折叠图标
-    const activityIcon = document.createElement('span');
-    activityIcon.className = 'collapsible-icon';
-    activityIcon.innerHTML = '<i class="layui-icon layui-icon-down"></i>';
-    activityHeader.appendChild(activityIcon);
-
-    // 创建活动内容区域
-    const activityListContainer = document.createElement('div');
-    activityListContainer.className = 'collapsible-content';
-
-    // 创建活动内容列表
-    const activityList = document.createElement('ul');
-    activityList.className = 'activity-list';
-
-    if (currentWeek && currentWeek.活动内容 && currentWeek.活动内容.length > 0) {
-        currentWeek.活动内容.forEach(activity => {
+        // 如果有多条活动或没有活动，使用原来的折叠功能
+        
+        // 创建活动内容区域
+        const activityContent = document.createElement('div');
+        activityContent.className = 'collapsible-section';
+        
+        // 创建活动内容头部
+        const activityHeader = document.createElement('div');
+        activityHeader.className = 'collapsible-header';
+        
+        // 创建活动内容标题
+        const activityTitle = document.createElement('div');
+        activityTitle.className = 'collapsible-title';
+        
+        if (currentWeek) {
+            activityTitle.textContent = `第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期})`;
+        } else {
+            activityTitle.textContent = '元梦星期五';
+        }
+        
+        activityHeader.appendChild(activityTitle);
+        
+        // 添加折叠图标
+        const activityIcon = document.createElement('span');
+        activityIcon.className = 'collapsible-icon';
+        activityIcon.innerHTML = '<i class="layui-icon layui-icon-down"></i>';
+        activityHeader.appendChild(activityIcon);
+        
+        // 创建活动内容区域
+        const activityListContainer = document.createElement('div');
+        activityListContainer.className = 'collapsible-content';
+        
+        // 创建活动内容列表
+        const activityList = document.createElement('ul');
+        activityList.className = 'activity-list';
+        
+        if (hasActivities) {
+            currentWeek.活动内容.forEach(activity => {
+                const li = document.createElement('li');
+                li.className = 'activity-item';
+                li.textContent = activity;
+                activityList.appendChild(li);
+            });
+        } else {
             const li = document.createElement('li');
             li.className = 'activity-item';
-            li.textContent = activity;
+            li.textContent = '暂无活动信息';
             activityList.appendChild(li);
+        }
+        
+        activityListContainer.appendChild(activityList);
+        
+        // 将头部和内容添加到活动区域
+        activityContent.appendChild(activityHeader);
+        activityContent.appendChild(activityListContainer);
+        
+        // 添加折叠点击事件
+        activityHeader.addEventListener('click', function() {
+            activityContent.classList.toggle('active');
         });
-    } else {
-        const li = document.createElement('li');
-        li.className = 'activity-item';
-        li.textContent = '暂无活动信息';
-        activityList.appendChild(li);
+        
+        // 将活动内容添加到容器
+        container.appendChild(activityContent);
     }
-
-    activityListContainer.appendChild(activityList);
-
-    // 将头部和内容添加到活动区域
-    activityContent.appendChild(activityHeader);
-    activityContent.appendChild(activityListContainer);
-
-    // 添加折叠点击事件
-    activityHeader.addEventListener('click', function () {
-        activityContent.classList.toggle('active');
-    });
-
-    // 将活动内容添加到容器
-    container.appendChild(activityContent);
 }
 
 // 页面加载完成后

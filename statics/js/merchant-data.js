@@ -6,7 +6,7 @@ const merchantData = {
             type: "樱花",
             players: [
                 { id: "梨宝baby", uid: "5861737", sell:"2.0", at:"", note: "", leaveTime: "4.6号12.37" },
-                { id: "Gigima", uid: "517508000", sell:"1.9", at:"", note: "", leaveTime: "4.8号14.49" },
+                { id: "Gigima", uid: "517508000", sell:"1.9", at:"@不要不开心噢7", note: "", leaveTime: "4.8号14.49" },
                 { id: "洗白", uid: "1708851718", sell:"1.9", at:"", note: "", leaveTime: "4.6号19.29" },
             ]
         },{
@@ -25,7 +25,7 @@ const merchantData = {
         },{
             type: "莲花掌",
             players: [
-                { id: "久居香菜林", uid: "207339958", sell:"2.0", at:"", note: "", leaveTime: "4.8号14.49" },
+                { id: "久居香菜林", uid: "207339958", sell:"2.0", at:"@不要不开心噢7", note: "", leaveTime: "4.8号14.49" },
             ]
         },{
             type: "仙客来",

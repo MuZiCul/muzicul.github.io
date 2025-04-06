@@ -303,8 +303,8 @@ const contributionData = {
                 "假ID*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "脆脆脆桃子", points: 1.56, contributions: [
+                "郁金香*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

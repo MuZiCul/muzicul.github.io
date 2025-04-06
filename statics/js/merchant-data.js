@@ -12,7 +12,7 @@ const merchantData = {
         },{
             type: "连翘",
             players: [
-                { id: "如影相随nini", uid: "1754510883", sell:"2.0", at:"@难愈", note: "", leaveTime: "4.6号15.57" },
+                { id: "如影相随nini", uid: "1754510883", sell:"2.0", at:"极品靑年", note: "", leaveTime: "4.6号15.57" },
                 { id: "000", uid: "000", sell:"2.0", at:"", note: "", leaveTime: "3.31号23.00" },
                 { id: "女乃_米唐", uid: "322908505", sell:"2.0", at:"", note: "", leaveTime: "4.3号10.34" },
                 { id: "薄雾插画烧仙草", uid: "1806991113", sell:"1.9", at:"", note: "", leaveTime: "4.2号9.00" },

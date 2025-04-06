@@ -283,7 +283,7 @@ const contributionData = {
                 "夏腊梅*1",
             ]
         }, {
-            name: "难愈愈愈", points: 3.33, contributions: [
+            name: "极品靑年", points: 3.33, contributions: [
                 "连翘*1",
             ]
         }, {

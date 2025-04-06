@@ -307,8 +307,8 @@ const contributionData = {
                 "郁金香*1",
             ]
         }, {
-            name: "000", points: 0, contributions: [
-                "000*1",
+            name: "好奇了吗", points: 2.82, contributions: [
+                "樱花*1",
             ]
         }, {
             name: "000", points: 0, contributions: [

@@ -7,6 +7,7 @@ const merchantData = {
             players: [
                 { id: "梨宝baby", uid: "5861737", sell:"2.0", at:"", note: "", leaveTime: "4.6号12.37" },
                 { id: "Gigima", uid: "517508000", sell:"1.9", at:"不要不开心噢7", note: "", leaveTime: "4.8号14.49" },
+                { id: "好奇了吗", uid: "522348200", sell:"1.9", at:"", note: "", leaveTime: "4.8号18.08" },
                 { id: "洗白", uid: "1708851718", sell:"1.9", at:"", note: "", leaveTime: "4.6号19.29" },
             ]
         },{

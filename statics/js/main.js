@@ -237,8 +237,11 @@ function renderPlayerList(data, containerId) {
                 copyText(player.id);
             };
 
-            buttonsDiv.appendChild(uidBtn);
             buttonsDiv.appendChild(nameBtn);
+            // 只有当UID不为"000"时，才添加复制UID的按钮
+            if (player.uid !== "000") {
+                buttonsDiv.appendChild(uidBtn);
+            }
 
             li.appendChild(infoDiv);
             li.appendChild(buttonsDiv);
@@ -410,8 +413,11 @@ function renderMerchants(containerId) {
                 copyText(player.id);
             };
 
-            buttonsDiv.appendChild(uidBtn);
             buttonsDiv.appendChild(nameBtn);
+            // 只有当UID不为"000"时，才添加复制UID的按钮
+            if (player.uid !== "000") {
+                buttonsDiv.appendChild(uidBtn);
+            }
 
             li.appendChild(infoDiv);
             li.appendChild(buttonsDiv);
@@ -489,8 +495,11 @@ function renderShameList(containerId) {
             copyText(player.id);
         };
 
-        buttonsDiv.appendChild(uidBtn);
         buttonsDiv.appendChild(nameBtn);
+        // 只有当UID不为"000"时，才添加复制UID的按钮
+        if (player.uid !== "000") {
+            buttonsDiv.appendChild(uidBtn);
+        }
 
         li.appendChild(infoDiv);
         li.appendChild(buttonsDiv);

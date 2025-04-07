@@ -5,7 +5,7 @@ const playerData = {
         {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
-                {id: "曲奇怮", uid: "000", note: ""},
+                {id: "曲奇怮", uid: "1293697994", note: ""},
                 {id: "蔡蔡种菜四号", uid: "000", note: "@紵悅"},
                 {id: "了了", uid: "000", note: ""},
                 {id: "杨七柒", uid: "000", note: ""},

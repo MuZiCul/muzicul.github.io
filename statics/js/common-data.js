@@ -35,5 +35,21 @@ const commonData = {
         { content: "11. 群昵称与接龙号昵称一致则无需添加" },
         { content: "12. 活跃系数：1-5分，1-5号统计上月聊天数量，依次赋分" },
         { content: "13. 风险贡献：发现假群昵称ID，核实后+5分" }
-    ]
+    ],
+    
+    // 网站访问密码配置
+    passwordConfig: {
+        enabled: true,                     // 是否启用密码功能
+        encodedPassword: "MzAyMQ==",  // base64编码的密码，解码后为"starfarm"
+        expireDays: 7,                     // Cookie过期天数
+        title: "星宝农场必备手册 - 访问验证",  // 密码页面标题
+        message: "请输入访问密码继续浏览",      // 密码页面提示信息
+        debug: {
+            enabled: false,                 // 是否启用调试模式
+            // enabled: true,                 // 是否启用调试模式
+            noCookies: true,               // debug模式下不存储cookies
+            clearCookiesOnLoad: true,      // debug模式下每次加载页面时清除cookies
+            showDebugInfo: true            // 显示调试信息
+        }
+    }
 }; 

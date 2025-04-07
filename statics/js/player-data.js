@@ -9,7 +9,7 @@ const playerData = {
                 {id: "蔡蔡种菜四号", uid: "000", note: "@紵悅"},
                 {id: "了了", uid: "000", note: ""},
                 {id: "杨七柒", uid: "000", note: ""},
-                {id: "2号是狼呀快跑", uid: "000", note: "3号是狼呀快跑"},
+                {id: "2号是狼呀快跑", uid: "000", note: "@3号是狼呀快跑"},
                 {id: "000", uid: "000", note: ""},
             ]
         }, {
@@ -28,7 +28,7 @@ const playerData = {
             players: [
                 {id: "傲娇玥", uid: "000", note: ""},
                 {id: "蔡蔡种菜0", uid: "000", note: "@紵悅"},
-                {id: "萌妹", uid: "000", note: "无需艾特"},
+                {id: "萌妹", uid: "000", note: "无需@"},
                 {id: "萌小只", uid: "000", note: "@雪萌萌"},
                 {id: "小梨宝baby", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -39,7 +39,7 @@ const playerData = {
             players: [
                 {id: "小雪LLL", uid: "000", note: ""},
                 {id: "暖成真羊驼", uid: "000", note: "@5bz"},
-                {id: "000", uid: "000", note: ""},
+                {id: "玥玥小5", uid: "000", note: "@PureLovekk"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -141,7 +141,7 @@ const playerData = {
                 {id: "一点已松子糖", uid: "000", note: ""},
                 {id: "我是不讲李", uid: "000", note: ""},
                 {id: "跑快快吃饭饭", uid: "000", note: "@喵喵喵哥哥怕怕"},
-                {id: "000", uid: "000", note: ""},
+                {id: "净", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]

@@ -74,7 +74,12 @@ const merchantData = {
         },{
             type: "黄色郁金香",
             players: [
-                { id: "此时鱼跃海|", uid: "92733962 ", sell:"1.9", at:"@脆脆脆桃子", note: "", leaveTime: "4.8号08.51" },
+                { id: "此时鱼跃海|", uid: "92733962", sell:"1.9", at:"@脆脆脆桃子", note: "", leaveTime: "4.8号08.51" },
+            ]
+        },{
+            type: "紫色风信子",
+            players: [
+                { id: "勿咽", uid: "1425801416", sell:"1.9", at:"@洗白", note: "", leaveTime: "4.号22.36" },
             ]
         },
     ]

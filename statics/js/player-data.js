@@ -31,7 +31,7 @@ const playerData = {
                 {id: "萌妹", uid: "000", note: "无需@"},
                 {id: "萌小只", uid: "000", note: "@雪萌萌"},
                 {id: "小梨宝baby", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "随和空旅行者", uid: "000", note: "@白芝麻滚铁球"},
             ]
         },
         {
@@ -77,7 +77,7 @@ const playerData = {
                 {id: "宅妹玉", uid: "000", note: ""},
                 {id: "久居香菜林", uid: "000", note: "@不要不开心噢7"},
                 {id: "朝歌To", uid: "000", note: "@3号是狼呀快跑"},
-                {id: "000", uid: "000", note: ""},
+                {id: "超级酷的知沂", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },
@@ -115,6 +115,7 @@ const playerData = {
                 {id: "长夏奇吖", uid: "000", note: "@久玥"},
                 {id: "vi拾柒", uid: "000", note: ""},
                 {id: "睿祺呢", uid: "000", note: ""},
+                {id: "苿熙", uid: "000", note: ""},
                 {id: "糖糖ProMax", uid: "000", note: ""},
             ]
         },

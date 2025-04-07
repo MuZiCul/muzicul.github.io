@@ -33,6 +33,7 @@ const playerData = {
                 {id: "萌妹", uid: "000", note: "无需@"},
                 {id: "萌小只", uid: "000", note: "@雪萌萌"},
                 {id: "小梨宝baby", uid: "000", note: ""},
+                {id: "二余温道", uid: "000", note: ""},
                 {id: "随和空旅行者", uid: "000", note: "@白芝麻滚铁球"},
             ]
         },

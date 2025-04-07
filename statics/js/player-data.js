@@ -121,7 +121,7 @@ const playerData = {
         {
             title: "动物熟练度获取提升+40%",
             players: [
-                {id: "沾砚", uid: "000", note: "@夏日菠萝啤"},
+                {id: "夏日菠萝啤", uid: "000", note: "@沾砚"},
                 {id: "纱猫讥笑", uid: "000", note: "@6PJd"},
                 {id: "仪笙", uid: "000", note: ""},
                 {id: "螺蛳粉味鸡腿", uid: "000", note: "@可可夹心芝士"},
@@ -140,7 +140,7 @@ const playerData = {
             players: [
                 {id: "一点已松子糖", uid: "000", note: ""},
                 {id: "我是不讲李", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "跑快快吃饭饭", uid: "000", note: "@喵喵喵哥哥怕怕"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},

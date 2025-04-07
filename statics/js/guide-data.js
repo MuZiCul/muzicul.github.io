@@ -149,9 +149,9 @@ const guideData = {
                 name: "双倍玄晶莲",
                 tag: "神农·月华触发，X16作物",
                 singleAmount: 2400,
-                singleValue: '未知',
+                singleValue: 12.25,
                 totalAmount: 7200,
-                totalValue: '约35'
+                totalValue: 36.75
             },
             {
                 name: "双倍紫羽兰",

@@ -21,6 +21,7 @@ const playerData = {
                 {id: "月亮睡不醒Kd", uid: "000", note: "@马铃薯公主i"},
                 {id: "二百是只瘸猫", uid: "000", note: ""},
                 {id: "喵喵喵哥哥怕怕", uid: "000", note: ""},
+                {id: "小镇荣七里香", uid: "000", note: ""},
             ]
         },
         {

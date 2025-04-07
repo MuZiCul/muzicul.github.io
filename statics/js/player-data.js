@@ -9,7 +9,7 @@ const playerData = {
                 {id: "蔡蔡种菜四号", uid: "000", note: "@紵悅"},
                 {id: "了了", uid: "000", note: ""},
                 {id: "杨七柒", uid: "000", note: ""},
-                {id: "2号是狼呀快跑", uid: "000", note: ""},
+                {id: "2号是狼呀快跑", uid: "000", note: "3号是狼呀快跑"},
                 {id: "000", uid: "000", note: ""},
             ]
         }, {
@@ -20,7 +20,7 @@ const playerData = {
                 {id: "脆脆脆桃子", uid: "000", note: ""},
                 {id: "月亮睡不醒Kd", uid: "000", note: "@马铃薯公主i"},
                 {id: "二百是只瘸猫", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "喵喵喵哥哥怕怕", uid: "000", note: ""},
             ]
         },
         {
@@ -38,7 +38,7 @@ const playerData = {
             title: "农场丰收概率 【大】",
             players: [
                 {id: "小雪LLL", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "暖成真羊驼", uid: "000", note: "@5bz"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -76,7 +76,7 @@ const playerData = {
                 {id: "好奇了吗", uid: "000", note: ""},
                 {id: "宅妹玉", uid: "000", note: ""},
                 {id: "久居香菜林", uid: "000", note: "@不要不开心噢7"},
-                {id: "000", uid: "000", note: ""},
+                {id: "朝歌To", uid: "000", note: "@3号是狼呀快跑"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
@@ -97,7 +97,7 @@ const playerData = {
             players: [
                 {id: "午后真香秘", uid: "000", note: "@6PJd"},
                 {id: "在看月亮吗", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "奻諵", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -110,7 +110,7 @@ const playerData = {
         {
             title: "作物熟练度获取提升+40%",
             players: [
-                {id: "小志", uid: "000", note: ""},
+                {id: "小志", uid: "000", note: "无需艾特"},
                 {id: "薄雾插画烧仙草", uid: "000", note: ""},
                 {id: "长夏奇吖", uid: "000", note: "@久玥"},
                 {id: "vi拾柒", uid: "000", note: ""},
@@ -155,6 +155,7 @@ const playerData = {
                 {id: "七载若木", uid: "000", note: ""},
                 {id: "女乃_米唐", uid: "000", note: ""},
                 {id: "吉影菠萝", uid: "000", note: ""},
+                {id: "3号是狼呀快跑", uid: "000", note: ""},
                 {id: "暮年o", uid: "000", note: "@久玥"},
                 {id: "Xyqz7", uid: "000", note: "@不要不开心噢7"},
                 {id: "星星知梦", uid: "000", note: "@不要不开心噢7"},

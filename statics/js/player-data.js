@@ -22,6 +22,7 @@ const playerData = {
                 {id: "二百是只瘸猫", uid: "000", note: ""},
                 {id: "喵喵喵哥哥怕怕", uid: "000", note: ""},
                 {id: "小镇荣七里香", uid: "000", note: ""},
+                {id: "故里梦溪", uid: "000", note: ""},
             ]
         },
         {
@@ -79,7 +80,7 @@ const playerData = {
                 {id: "久居香菜林", uid: "000", note: "@不要不开心噢7"},
                 {id: "朝歌To", uid: "000", note: "@3号是狼呀快跑"},
                 {id: "超级酷的知沂", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "小馋猫儿不迷路", uid: "000", note: ""},
             ]
         },
         {
@@ -99,7 +100,7 @@ const playerData = {
                 {id: "午后真香秘", uid: "000", note: "@6PJd"},
                 {id: "在看月亮吗", uid: "000", note: ""},
                 {id: "奻諵", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "BB来噜", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]

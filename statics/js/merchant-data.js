@@ -27,6 +27,7 @@ const merchantData = {
             type: "莲花掌",
             players: [
                 { id: "久居香菜林", uid: "207339958", sell:"2.0", at:"@不要不开心噢7", note: "", leaveTime: "4.8号14.49" },
+                { id: "媛媛", uid: "304949781", sell:"2.0", at:"@绒乎乎", note: "", leaveTime: "4.9号10.49" },
             ]
         },{
             type: "仙客来",

@@ -659,6 +659,7 @@ window.onload = function () {
         renderWarningBox('merchant-warning-box');
         renderWarningBox('guide-warning-box');
         renderWarningBox('contribution-warning-box');
+        renderWarningBox('poverty-warning-box');
 
         // 渲染所有内容
         console.log("渲染月度最佳温泉贡献奖励");
@@ -666,6 +667,7 @@ window.onload = function () {
         renderUpdates('merchant-update-section');
         renderUpdates('guide-update-section');
         renderUpdates('contribution-reward-section');
+        renderUpdates('poverty-reward-section');
 
         // 渲染本周活动
         console.log("渲染本周活动");
@@ -697,6 +699,15 @@ window.onload = function () {
         renderShameList('shame-section');
         renderShameList('merchant-shame-section');
         renderShameList('contribution-shame-section');
+        renderShameList('poverty-shame-section');
+
+        // 渲染扶贫用户列表
+        console.log("渲染扶贫用户列表");
+        if (typeof renderPovertyPlayers === 'function') {
+            renderPovertyPlayers('poverty-players-list');
+        } else {
+            console.error("找不到renderPovertyPlayers函数");
+        }
 
         // 返回顶部和返回底部按钮
         const backToTopButtons = document.querySelectorAll('.back-to-top');

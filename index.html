@@ -28,7 +28,8 @@
         <div class="nav-buttons">
             <button class="nav-btn active" data-target="main-content">温泉</button>
             <button class="nav-btn" data-target="merchant-content">商人</button>
-            <button class="nav-btn" data-target="contribution-content">贡献榜</button>
+            <button class="nav-btn" data-target="contribution-content">贡献</button>
+            <button class="nav-btn" data-target="poverty-content">扶贫</button>
             <button class="nav-btn" data-target="guide-content">攻略</button>
         </div>
 
@@ -227,6 +228,45 @@
                 <i class="layui-icon layui-icon-top"></i>
             </div>
         </div>
+
+        <!-- 扶贫内容区域 -->
+        <div id="poverty-content" class="content-area">
+            <!-- 警告框 -->
+            <div class="warning-box" id="poverty-warning-box">
+                <!-- 动态加载警告内容 -->
+            </div>
+            
+            <!-- 月度最佳温泉贡献奖励 -->
+            <div class="section-card" id="poverty-reward-section">
+                <h2 class="section-title">月度最佳温泉贡献奖励</h2>
+                <!-- 动态加载奖励内容 -->
+            </div>
+            
+            <!-- 扶贫用户信息 -->
+            <div class="section-card" id="poverty-users-section">
+                <h2 class="section-title">扶贫用户信息</h2>
+                <!-- 动态加载扶贫用户信息 -->
+                <ul class="player-list" id="poverty-players-list">
+                    <!-- 动态加载扶贫用户列表 -->
+                </ul>
+            </div>
+            
+            <!-- 耻辱柱 -->
+            <div class="section-card" id="poverty-shame-section">
+                <h2 class="section-title">耻辱柱（偷菜曝光区）</h2>
+                <!-- 动态加载耻辱柱内容 -->
+            </div>
+            
+            <!-- 返回顶部按钮 -->
+            <div class="back-to-top" id="backToTop5">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+
+            <!-- 返回底部按钮 -->
+            <div class="back-to-bottom" id="backToBottom5">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+        </div>
     </div>
 
     <!-- 引入Layui JS -->
@@ -238,11 +278,13 @@
     <script src="statics/js/merchant-data.js"></script>
     <script src="statics/js/guide-data.js"></script>
     <script src="statics/js/contribution-data.js"></script>
+    <script src="statics/js/poverty-data.js"></script>
     <!-- 引入密码保护脚本 -->
     <script src="statics/js/password-protection.js"></script>
     <!-- 后引入渲染脚本 -->
     <script src="statics/js/guide-render.js"></script>
     <script src="statics/js/contribution-render.js"></script>
+    <script src="statics/js/poverty-render.js"></script>
     <script src="statics/js/main.js"></script>
     <script src="statics/js/browser-check.js"></script>
     <!-- 检查未加载的脚本 -->
@@ -260,8 +302,10 @@
             'statics/js/merchant-data.js',
             'statics/js/guide-data.js',
             'statics/js/contribution-data.js',
+            'statics/js/poverty-data.js',
             'statics/js/guide-render.js',
             'statics/js/contribution-render.js',
+            'statics/js/poverty-render.js',
             'statics/js/main.js',
             'statics/js/browser-check.js'
         ];

@@ -126,7 +126,7 @@ body {
 }
 
 .player-info:before {
-    content: "🌸";
+    content: "✿";
     color: var(--secondary-color);
     margin-right: 8px;
     font-size: 16px;
@@ -174,7 +174,7 @@ body {
 }
 
 .tips-list li:before {
-    content: "🌸";
+    content: "✿";
     color: var(--secondary-color);
     position: absolute;
     left: -20px;
@@ -348,7 +348,8 @@ body {
 }
 
 .merchant-name:before {
-    content: "🌸";
+    content: "✿";
+    color: var(--secondary-color);
     margin-right: 8px;
 }
 
@@ -477,7 +478,7 @@ body {
 }
 
 .collapsible-title:before {
-    content: "✿";
+    content: "🌸";
     color: var(--secondary-color);
     margin-right: 10px;
 }
@@ -659,9 +660,9 @@ body {
 }
 
 .rule-item:before {
-    content: "📋";
+    content: "✿";
+    color: var(--secondary-color);
     margin-right: 10px;
-    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -903,7 +904,7 @@ body {
 }
 
 .friday-activity-icon {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin-right: 10px;
     font-size: 16px;
 }
@@ -1015,7 +1016,8 @@ body {
 
 /* 扶贫相关样式 */
 .poverty-instructions {
-    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--primary-color);
+    background-color: var(--light-bg);
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
@@ -1024,18 +1026,23 @@ body {
 
 .instruction-item {
     margin: 10px 0;
-    padding-left: 20px;
+    padding-left: 10px;
     position: relative;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
+    display: flex;
+    align-items: flex-start;
 }
 
-.instruction-item:before {
-    content: "•";
-    position: absolute;
-    left: 5px;
+.warning-icon {
+    margin-right: 10px;
+    font-size: 16px;
     color: #ff6b6b;
-    font-weight: bold;
+}
+
+/* 移除原来的圆点符号样式 */
+.instruction-item:before {
+    display: none;
 }
 
 .poverty-player-item {
@@ -1068,6 +1075,29 @@ body {
     }
     
     .instruction-item {
-        font-size: 14px;
+        font-size: 13px;
     }
+}
+
+/* 耻辱柱特殊样式 */
+.shame-player-info {
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.shame-player-info:before {
+    content: "⚠️";
+    color: var(--secondary-color);
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--secondary-color), transparent);
+    margin: 15px 0;
 } 

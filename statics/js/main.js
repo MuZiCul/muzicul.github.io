@@ -193,7 +193,10 @@ function renderPlayerList(data, containerId) {
         const ul = document.createElement('ul');
         ul.className = 'player-list';
 
-        section.players.forEach(player => {
+        // 过滤掉id为"000"的玩家
+        const filteredPlayers = section.players.filter(player => player.id !== "000");
+        
+        filteredPlayers.forEach(player => {
             const li = document.createElement('li');
             li.className = 'player-item';
 
@@ -449,7 +452,7 @@ function renderShameList(containerId) {
     if (!container.querySelector('.section-title')) {
         const h2 = document.createElement('h2');
         h2.className = 'section-title';
-        h2.textContent = '耻辱柱（偷菜曝光区）';
+        h2.textContent = '耻辱柱（违规曝光区）';
         container.appendChild(h2);
     }
 
@@ -462,12 +465,12 @@ function renderShameList(containerId) {
         li.className = 'player-item';
 
         const infoDiv = document.createElement('div');
-        infoDiv.className = 'player-info';
+        infoDiv.className = 'shame-player-info';
 
         // 创建ID文本
         const idSpan = document.createElement('span');
         idSpan.className = 'player-id';
-        idSpan.textContent = `ID:${player.id}`;
+        idSpan.textContent = `${player.id}`;
         infoDiv.appendChild(idSpan);
 
         // 如果有note，创建标签
@@ -551,7 +554,7 @@ function renderWeekActivity(containerId) {
         activityRow.className = 'friday-activity-row';
         
         // 修改显示格式，使用更简洁的样式
-        activityRow.innerHTML = `<span class="friday-activity-icon">✿</span> 第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期}): ${currentWeek.活动内容[0]}`;
+        activityRow.innerHTML = `<span class="friday-activity-icon">🌸</span> 第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期}): ${currentWeek.活动内容[0]}`;
         
         // 将活动内容添加到容器
         container.appendChild(activityRow);

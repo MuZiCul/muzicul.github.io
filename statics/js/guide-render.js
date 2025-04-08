@@ -47,9 +47,10 @@ function renderHotSpringGuide(container) {
         content.className = 'collapsible-content';
 
         const tipsList = document.createElement('ul');
-        tipsList.className = 'tips-list';
+        tipsList.className = 'rule-list';
         guide.tips.forEach(tip => {
             const li = document.createElement('li');
+            li.className = 'rule-item';
             li.textContent = tip;
             tipsList.appendChild(li);
         });
@@ -91,9 +92,10 @@ function renderFlowerGuide(container) {
         content.className = 'collapsible-content';
 
         const tipsList = document.createElement('ul');
-        tipsList.className = 'tips-list';
+        tipsList.className = 'rule-list';
         guide.tips.forEach(tip => {
             const li = document.createElement('li');
+            li.className = 'rule-item';
             li.textContent = tip;
             tipsList.appendChild(li);
         });
@@ -191,6 +193,23 @@ function renderMarketGuide(container) {
     const contentDiv = document.createElement('div');
     contentDiv.className = 'collapsible-content';
 
+    // 添加注意事项到顶部
+    if (guideData.marketValueGuide.notes && guideData.marketValueGuide.notes.length > 0) {
+        const notesList = document.createElement('ul');
+        notesList.className = 'tips-list';
+        guideData.marketValueGuide.notes.forEach(note => {
+            const li = document.createElement('li');
+            li.textContent = note;
+            notesList.appendChild(li);
+        });
+        contentDiv.appendChild(notesList);
+        
+        // 添加分隔线
+        const divider = document.createElement('div');
+        divider.className = 'section-divider';
+        contentDiv.appendChild(divider);
+    }
+
     // 创建花卉卡片容器
     const cardsContainer = document.createElement('div');
     cardsContainer.className = 'flower-cards-container';
@@ -249,16 +268,6 @@ function renderMarketGuide(container) {
     });
 
     contentDiv.appendChild(cardsContainer);
-
-    // 添加注意事项
-    const notesList = document.createElement('ul');
-    notesList.className = 'tips-list';
-    guideData.marketValueGuide.notes.forEach(note => {
-        const li = document.createElement('li');
-        li.textContent = note;
-        notesList.appendChild(li);
-    });
-    contentDiv.appendChild(notesList);
 
     // 将头部和内容添加到折叠区域
     sectionDiv.appendChild(headerDiv);

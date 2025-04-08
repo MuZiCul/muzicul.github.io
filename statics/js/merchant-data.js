@@ -56,8 +56,8 @@ const merchantData = {
             type: "雪滴花",
             players: [
                 { id: "雨起花落丶", uid: "1746599749", sell:"2.0", at:"", note: "", leaveTime: "4.3号02.09" },
-                { id: "BB来噜", uid: "693610369", sell:"2.0", at:"", note: "", leaveTime: "4.3号13.00" },
-                { id: "芙⼉", uid: "1558308455", sell:"2.0", at:"@招财小芙", note: "", leaveTime: "4.6号08.54" },
+                { id: "Karrry", uid: "000", sell:"2.0", at:"@脆脆脆桃子", note: "", leaveTime: "4.10号10.13" },
+                { id: "雪梨", uid: "000", sell:"2.0", at:"@萌妹", note: "", leaveTime: "4.10号10.30" },
             ]
         },{
             type: "夏腊梅",

@@ -18,7 +18,8 @@ function renderPovertyPlayers(containerId) {
     povertyData.povertyInstructions.forEach(instruction => {
         const p = document.createElement('p');
         p.className = 'instruction-item';
-        p.textContent = instruction;
+        // 添加警示符号
+        p.innerHTML = `<span class="warning-icon">⚠️</span> ${instruction}`;
         instructionsDiv.appendChild(p);
     });
     

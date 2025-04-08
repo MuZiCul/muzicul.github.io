@@ -23,6 +23,7 @@ const playerData = {
                 {id: "喵喵喵哥哥怕怕", uid: "000", note: ""},
                 {id: "小镇荣七里香", uid: "000", note: ""},
                 {id: "故里梦溪", uid: "000", note: ""},
+                {id: "王哪哪哪泽", uid: "000", note: ""},
             ]
         },
         {
@@ -82,6 +83,7 @@ const playerData = {
                 {id: "朝歌To", uid: "000", note: "@3号是狼呀快跑"},
                 {id: "超级酷的知沂", uid: "000", note: ""},
                 {id: "小馋猫儿不迷路", uid: "000", note: ""},
+                {id: "旧谨", uid: "000", note: ""},
             ]
         },
         {
@@ -146,7 +148,7 @@ const playerData = {
                 {id: "我是不讲李", uid: "000", note: ""},
                 {id: "跑快快吃饭饭", uid: "000", note: "@喵喵喵哥哥怕怕"},
                 {id: "净", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "咕噜的小熊丢了", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },

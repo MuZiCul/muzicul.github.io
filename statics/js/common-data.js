@@ -41,7 +41,7 @@ const commonData = {
     passwordConfig: {
         enabled: true,                     // 是否启用密码功能
         encodedPassword: "OTk2Ng==",  // base64编码的密码，解码后为"starfarm"
-        expireDays: 7,                     // Cookie过期天数
+        expireDays: 1,                     // Cookie过期天数
         title: "星宝农场必备手册 - 访问验证",  // 密码页面标题
         message: "请输入访问密码继续浏览",      // 密码页面提示信息
         debug: {

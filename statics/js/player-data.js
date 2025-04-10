@@ -46,7 +46,7 @@ const playerData = {
         },{
             title: "每日拿取次数+15",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "暂无", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -61,7 +61,7 @@ const playerData = {
         {
             title: "加工作物产品获得农场经验提升+30%",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "暂无", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},

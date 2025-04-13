@@ -5,7 +5,7 @@ const merchantData = {
               {
             type: "请移步游戏内【派对】板块查找商人",
             players: [
-                { id: "请移步游戏内【派对】板块查找商人", uid: "000", sell:"2.0", at:"", note: "", leaveTime: "12.31号23.59" },
+                { id: "请移步游戏内【派对】板块查找商人", uid: "000", sell:"1.0", at:"", note: "", leaveTime: "12.31号23.59" },
                 // { id: "Gigima", uid: "517508000", sell:"1.9", at:"不要不开心噢7", note: "", leaveTime: "4.8号14.49" },
                 // { id: "好奇了吗", uid: "522348200", sell:"1.9", at:"", note: "", leaveTime: "4.8号18.08" },
                 // { id: "洗白", uid: "1708851718", sell:"1.9", at:"", note: "", leaveTime: "4.6号19.29" },

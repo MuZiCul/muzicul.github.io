@@ -64,7 +64,7 @@ const contributionData = {
             ]
         }, {
             name: "久玥丨", points: 10.33, contributions: [
-                "鱼卡*1","普彩*1","莲花掌*1","普彩*2",
+                "鱼卡*1","普彩*3","莲花掌*1",
             ]
         }, {
             name: "雪萌萌", points: 11.33, contributions: [

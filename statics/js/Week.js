@@ -119,13 +119,13 @@ const WeekData = {
       "周数": 18,
       "起始日期": "2025-04-28",
       "结束日期": "2025-05-04",
-      "活动内容": [ACTIVITY_TYPES.C,ACTIVITY_TYPES.F]
+      "活动内容": [ACTIVITY_TYPES.C,ACTIVITY_TYPES.F,ACTIVITY_TYPES.G,ACTIVITY_TYPES.H]
     },
     {
       "周数": 19,
       "起始日期": "2025-05-05",
       "结束日期": "2025-05-11",
-      "活动内容": [ACTIVITY_TYPES.D]
+      "活动内容": [ACTIVITY_TYPES.D,ACTIVITY_TYPES.H]
     },
     {
       "周数": 20,

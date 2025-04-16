@@ -512,6 +512,20 @@ function renderShameList(containerId) {
     container.appendChild(ul);
 }
 
+// 增加天数的函数（支持跨月/年）
+function addDays(dateStr, days) {
+  const date = new Date(dateStr.replace(/-/g, '/')); // 兼容日期字符串解析
+  date.setDate(date.getDate() + days);
+  return date;
+}
+
+// 日期格式化函数（输出 MM-DD 格式）
+function formatDate1(date) {
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = date.getDate().toString().padStart(2, '0');
+  return `${month}-${day}`;
+}
+
 // 渲染本周活动内容
 function renderWeekActivity(containerId) {
     const container = document.getElementById(containerId);
@@ -554,7 +568,7 @@ function renderWeekActivity(containerId) {
         activityRow.className = 'friday-activity-row';
         
         // 修改显示格式，使用更简洁的样式
-        activityRow.innerHTML = `<span class="friday-activity-icon">🌸</span> 第${currentWeek.周数}周活动 (${currentWeek.起始日期} 至 ${currentWeek.结束日期}): ${currentWeek.活动内容[0]}`;
+        activityRow.innerHTML = `<span class="friday-activity-icon">🌸</span> 本周农场BUFF (${formatDate1(addDays(currentWeek.起始日期, 4))} 至 ${formatDate1(new Date(currentWeek.结束日期))}): ${currentWeek.活动内容[0]}`;
         
         // 将活动内容添加到容器
         container.appendChild(activityRow);

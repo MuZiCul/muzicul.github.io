@@ -55,17 +55,19 @@ const playerData = {
         {
             title: "加工作物产品获得农场经验提升+30%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "超爱麻薯小卷", uid: "000", note: "@姚小白丨"},
+                {id: "油癫猫饼", uid: "000", note: ""},
+                {id: "爱吃猫条的猫猫", uid: "000", note: ""},
+                {id: "丁丁又喂饼了", uid: "000", note: ""},
+                {id: "是谁在被爱", uid: "000", note: ""},
+                {id: "酱酱不吃姜yu", uid: "000", note: ""},
             ]
         },
         {
             title: "收获作物时农场经验获取提升+8%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "与卿来噜", uid: "000", note: ""},
+                {id: "每天只会吨吨吨", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
@@ -73,19 +75,20 @@ const playerData = {
         {
             title: "收获动物时农场经验获取提升+6%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "午后真香秘境", uid: "000", note: "@6PJd"},
+                {id: "时方悟", uid: "000", note: ""},
+                {id: "i乌龙茶", uid: "000", note: "@雪萌萌"},
+                {id: "洗⽩", uid: "000", note: ""},
             ]
         },
         {
             title: "鱼塘全水层钓鱼经验+15%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "嘿MHX", uid: "000", note: "@龙龙"},
+                {id: "极品靑年", uid: "000", note: ""},
+                {id: "格子外的星空", uid: "000", note: ""},
+                {id: "睡不着的cat", uid: "000", note: ""},
+                {id: "可乐饼小鱼仔", uid: "000", note: ""},
             ]
         }
     ],
@@ -95,17 +98,17 @@ const playerData = {
         {
             title: "作物熟练度获取提升+40%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "深情in棒棒糖", uid: "000", note: "@半颜吖"},
+                {id: "小脑菜菜", uid: "000", note: ""},
+                {id: "君禧绾之h", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },
         {
             title: "动物熟练度获取提升+40%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "苿熙", uid: "000", note: ""},
+                {id: "綿喵", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
@@ -118,8 +121,8 @@ const playerData = {
         {
             title: "水族箱效率提升+45%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "喵喵喵哥哥怕怕", uid: "000", note: ""},
+                {id: "在看月亮吗", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
@@ -127,18 +130,19 @@ const playerData = {
         {
             title: "鱼饵价格降低+15%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "长夏奇吖", uid: "000", note: "@久玥"},
+                {id: "像素再见源泉", uid: "000", note: ""},
+                {id: "来看月亮嘛", uid: "000", note: "@在看月亮吗"},
+                {id: "柒一桉", uid: "000", note: ""},
+                {id: "小胖斧z", uid: "000", note: ""},
             ]
         },
         {
             title: "动物丰收概率提升 【大】",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "宅妹玉", uid: "000", note: ""},
+                {id: "杭州彦祖", uid: "000", note: ""},
+                {id: "月亮睡不醒Kd", uid: "000", note: "@马铃薯公主i"},
                 {id: "000", uid: "000", note: ""},
             ]
         }

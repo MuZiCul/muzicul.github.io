@@ -101,7 +101,7 @@ const playerData = {
                 {id: "深情in棒棒糖", uid: "000", note: "@半颜吖"},
                 {id: "小脑菜菜", uid: "000", note: ""},
                 {id: "君禧绾之h", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "辣妹妹", uid: "000", note: "@特甜辣妹"},
             ]
         },
         {

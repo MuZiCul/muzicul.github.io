@@ -5,43 +5,45 @@ const playerData = {
         {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "赶脚儿", uid: "000", note: ""},
+                {id: "求求别偷我菜啊", uid: "000", note: ""},
+                {id: "妮稱", uid: "000", note: ""},
+                {id: "艾薇er", uid: "000", note: ""},
+                {id: "噼里啪啦_Lx", uid: "000", note: ""},
 
             ]
         }, {
             title: "加工器容量提升+40%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "火星人哔哔哔", uid: "000", note: ""},
+                {id: "豆哥子豆", uid: "000", note: ""},
+                {id: "春雪后", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },
         {
             title: "钓鱼&鱼卡熟练度+60%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "打的你变猪头", uid: "000", note: ""},
+                {id: "螺蛳粉味鸡腿", uid: "000", note: "@可可夹心芝士"},
+                {id: "泠泠雪诗", uid: "000", note: ""},
+                {id: "爱吃无穷鸡腿", uid: "000", note: ""},
+                {id: "半月魔女", uid: "000", note: ""},
             ]
         },
         {
             title: "农场丰收概率 【大】",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "晨光熹微YL", uid: "000", note: "@6PJd"},
+                {id: "xxxy823", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },{
             title: "每日拿取次数+15",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "Lyricist", uid: "000", note: "@春雪后"},
+                {id: "炒乌龙", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]

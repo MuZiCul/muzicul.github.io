@@ -34,7 +34,7 @@ const playerData = {
         {
             title: "农场丰收概率 【大】",
             players: [
-                {id: "晨光熹微YL", uid: "791291738", note: "@6PJd"},
+                {id: "晨光熹微YL", uid: "791291738", note: "@Luckyd8k"},
                 {id: "xxxy823", uid: "225091501", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},

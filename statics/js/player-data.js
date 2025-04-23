@@ -68,6 +68,7 @@ const playerData = {
             players: [
                 {id: "与卿来噜", uid: "1993522363", note: ""},
                 {id: "每天只会吨吨吨", uid: "1968001969", note: ""},
+                {id: "时方悟", uid: "1671549138", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
@@ -76,7 +77,6 @@ const playerData = {
             title: "收获动物时农场经验获取提升+6%",
             players: [
                 {id: "午后真香秘境", uid: "1339766606", note: "@6PJd"},
-                {id: "时方悟", uid: "1671549138", note: ""},
                 {id: "i乌龙茶", uid: "1247700275", note: "@雪萌萌"},
                 {id: "为你核移植", uid: "525677259", note: "@你我如星月"},
                 {id: "洗⽩", uid: "000", note: ""},

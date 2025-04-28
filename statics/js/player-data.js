@@ -7,7 +7,7 @@ const playerData = {
             players: [
                 {id: "我菜我认叭", uid: "000", note: "@柠萌不萌oO"},
                 {id: "柠萌不恬oO", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "一片小苏叶", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -19,9 +19,9 @@ const playerData = {
                 {id: "女乃_米唐", uid: "000", note: ""},
                 {id: "麻雕先生", uid: "000", note: ""},
                 {id: "me", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "可可夹心芝士", uid: "000", note: ""},
+                {id: "星期八再说丶", uid: "000", note: ""},
+                {id: "o乌0乌O乌", uid: "000", note: ""},
             ]
         },
         {
@@ -30,16 +30,16 @@ const playerData = {
                 {id: "柒一桉", uid: "000", note: ""},
                 {id: "Tjc6z", uid: "000", note: "@柠萌不萌oO"},
                 {id: "夏日菠萝啤", uid: "000", note: "@沾砚"},
-                {id: "张烫麻辣亮子", uid: "000", note: ""},
-                {id: "000", uid: "000", note: "@肉丸子你吃不"},
-                {id: "000", uid: "000", note: ""},
+                {id: "张烫麻辣亮子", uid: "000", note: "@肉丸子你吃不"},
+                {id: "AAA建材蛋哥", uid: "000", note: ""},
+                {id: "Yao_冬", uid: "000", note: ""},
             ]
         },
         {
             title: "农场丰收概率 【大】",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "杨的梦", uid: "000", note: ""},
+                {id: "格子外的星空", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -57,7 +57,7 @@ const playerData = {
                 {id: "是小夭哇", uid: "000", note: ""},
                 {id: "拿瓶伏特加", uid: "000", note: ""},
                 {id: "二粒糖糖", uid: "000", note: "糖糖promax"},
-                {id: "000", uid: "000", note: ""},
+                {id: "有星入梦来", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },
@@ -88,7 +88,7 @@ const playerData = {
             players: [
                 {id: "偷喝汽水ft", uid: "000", note: ""},
                 {id: "喵喵喵哥哥怕怕", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "七载若木", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -103,10 +103,11 @@ const playerData = {
             players: [
                 {id: "醉心妍", uid: "000", note: ""},
                 {id: "久居香菜林", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "朝歌To", uid: "000", note: ""},
+                {id: "螺蛳粉味鸡腿", uid: "000", note: "可可夹心芝士"},
+                {id: "6PJd", uid: "000", note: ""},
+                {id: "炒乌龙", uid: "000", note: ""},
+                {id: "小喵Hr", uid: "000", note: "牛仔追星睡不醒"},
             ]
         },
         {
@@ -140,8 +141,8 @@ const playerData = {
             title: "鱼饵价格降低+15%",
             players: [
                 {id: "小joy乖乖兔", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "雅Os", uid: "000", note: ""},
+                {id: "君禧绾之h", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -152,9 +153,9 @@ const playerData = {
             players: [
                 {id: "酱酱不吃姜yu", uid: "000", note: ""},
                 {id: "旧版刊", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "晚江词", uid: "000", note: ""},
+                {id: "睿祺呢", uid: "000", note: ""},
+                {id: "是谁在被爱", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]
         },{

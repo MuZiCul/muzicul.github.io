@@ -213,7 +213,11 @@ function renderPlayerList(data, containerId) {
             if (player.note) {
                 const noteSpan = document.createElement('span');
                 noteSpan.className = `player-note ${getNoteClass(player.note)}`;
-                noteSpan.textContent = player.note;
+                let atText = player.note;
+                if (!atText.startsWith('@')) {
+                    atText = '@' + atText;
+                }
+                noteSpan.textContent = atText;
                 infoDiv.appendChild(noteSpan);
             } else {
                 const noteSpan = document.createElement('span');
@@ -477,7 +481,11 @@ function renderShameList(containerId) {
         if (player.note) {
             const noteSpan = document.createElement('span');
             noteSpan.className = `player-note ${getNoteClass(player.note)}`;
-            noteSpan.textContent = player.note;
+            let atText = player.note;
+            if (!atText.startsWith('@')) {
+                atText = '@' + atText;
+            }
+            noteSpan.textContent = atText;
             infoDiv.appendChild(noteSpan);
         }
 

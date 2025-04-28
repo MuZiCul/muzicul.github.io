@@ -111,9 +111,10 @@ body {
 }
 
 .player-item:hover {
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     transform: translateX(5px);
     box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    color: white;
 }
 
 .player-info {
@@ -329,9 +330,10 @@ body {
 }
 
 .merchant-item:hover {
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     transform: translateX(5px);
     box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    color: white;
 }
 
 .merchant-info {
@@ -466,7 +468,8 @@ body {
 }
 
 .collapsible-header:hover {
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
 }
 
 .collapsible-title {
@@ -493,7 +496,8 @@ body {
 }
 
 .collapsible-section.active .collapsible-header {
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
 }
 
 .collapsible-section.active .collapsible-icon {
@@ -533,7 +537,8 @@ body {
 .flower-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
 }
 
 .flower-name {
@@ -645,7 +650,9 @@ body {
 .reward-item:hover,
 .rule-item:hover {
     transform: translateX(5px);
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .reward-item {
@@ -708,8 +715,9 @@ body {
 
 .contribution-card:hover {
     transform: translateX(5px);
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    color: white;
 }
 
 .contribution-header {
@@ -845,21 +853,20 @@ body {
 }
 
 .activity-item {
-    padding: 12px 15px;
-    margin-bottom: 10px;
+    padding: 10px 15px;
+    margin: 8px 0;
     background-color: var(--light-bg);
     border-radius: 8px;
     transition: all 0.3s ease;
-    position: relative;
-    padding-left: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .activity-item:before {
-    content: "•";
-    position: absolute;
-    left: 15px;
-    color: var(--primary-color);
-    font-size: 18px;
+    content: "✿";
+    color: var(--secondary-color);
+    margin-right: 10px;
+    font-size: 16px;
 }
 
 .activity-item:hover {
@@ -872,13 +879,13 @@ body {
 /* 响应式调整 */
 @media (max-width: 768px) {
     .activity-item {
-        padding: 10px 12px;
-        padding-left: 30px;
+        padding: 8px 12px;
         font-size: 14px;
     }
     
     .activity-item:before {
-        left: 12px;
+        font-size: 14px;
+        margin-right: 8px;
     }
 }
 
@@ -898,9 +905,10 @@ body {
 }
 
 .friday-activity-row:hover {
-    background: linear-gradient(to right, var(--light-bg), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     transform: translateX(5px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: white;
 }
 
 .friday-activity-icon {
@@ -1053,8 +1061,9 @@ body {
 .poverty-player-item:hover {
     transform: translateX(5px);
     border-left: 4px solid #4cae4c;
-    background: linear-gradient(90deg, rgba(93, 169, 233, 0.1), rgba(157, 88, 243, 0.1));
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    color: white;
 }
 
 @keyframes fadeInLeft {
@@ -1100,4 +1109,16 @@ body {
     height: 1px;
     background: linear-gradient(to right, transparent, var(--secondary-color), transparent);
     margin: 15px 0;
+}
+
+.player-item:hover .player-info:before,
+.merchant-item:hover .merchant-name:before,
+.activity-item:hover:before,
+.rule-item:hover:before,
+.contribution-card:hover .contribution-item:before,
+.poverty-player-item:hover .player-info:before,
+.collapsible-header:hover .collapsible-title:before,
+.collapsible-section.active .collapsible-header .collapsible-title:before,
+.friday-activity-row:hover .friday-activity-icon {
+    color: white;
 } 

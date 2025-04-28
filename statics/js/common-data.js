@@ -8,7 +8,7 @@ const commonData = {
             "⚠️ 新增删除请群内@小红狐。",
             "⚠️ 如果好友许久未通过，请在群内@对应昵称的农场主。",
             "⚠️ 群人数超495触发【随机刀人】机制。",
-            "⚠️ 随机刀人：无🆔，不活跃，无贡献。",
+            "⚠️ 随机刀人规则：无🆔，不活跃，无贡献。",
         ]
     },
     
@@ -40,7 +40,7 @@ const commonData = {
     // 网站访问密码配置
     passwordConfig: {
         enabled: true,                     // 是否启用密码功能
-        encodedPassword: "MTAwODY=",  // base64编码的密码，解码后为"starfarm"
+        encodedPassword: "MTIzMTU=",  // base64编码的密码，解码后为"starfarm"
         expireDays: 1,                     // Cookie过期天数
         title: "星宝农场必备手册 - 访问验证",  // 密码页面标题
         message: "请输入访问密码继续浏览",      // 密码页面提示信息

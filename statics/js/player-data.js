@@ -106,7 +106,6 @@ const playerData = {
                 {id: "朝歌To", uid: "000", note: ""},
                 {id: "螺蛳粉味鸡腿", uid: "000", note: "可可夹心芝士"},
                 {id: "6PJd", uid: "000", note: ""},
-                {id: "炒乌龙", uid: "000", note: ""},
                 {id: "小喵Hr", uid: "000", note: "牛仔追星睡不醒"},
             ]
         },
@@ -117,6 +116,7 @@ const playerData = {
                 {id: "秋编织流", uid: "000", note: ""},
                 {id: "泛清波摘遍", uid: "000", note: ""},
                 {id: "B事儿真多", uid: "000", note: ""},
+                {id: "炒乌龙", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
             ]

@@ -5,7 +5,7 @@ const playerData = {
         {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "我菜我认叭", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -16,9 +16,9 @@ const playerData = {
         }, {
             title: "加工器容量提升+40%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "女乃_米唐", uid: "000", note: ""},
+                {id: "麻雕先生", uid: "000", note: ""},
+                {id: "me", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -27,7 +27,7 @@ const playerData = {
         {
             title: "钓鱼&鱼卡熟练度+60%",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "柒一桉", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -53,8 +53,8 @@ const playerData = {
         {
             title: "加工作物产品获得农场经验提升+30%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "爱吃无穷鸡腿", uid: "000", note: ""},
+                {id: "是小夭哇", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -112,7 +112,7 @@ const playerData = {
         {
             title: "动物熟练度获取提升+40%",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "想换一个冬季", uid: "000", note: "@肉肉"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -150,7 +150,7 @@ const playerData = {
         {
             title: "动物丰收概率提升 【大】",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "酱酱不吃姜yu", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},

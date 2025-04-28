@@ -6,7 +6,7 @@ const playerData = {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
                 {id: "我菜我认叭", uid: "000", note: "@柠萌不萌oO"},
-                {id: "柠萌不恬oO", uid: "000", note: ""},
+                {id: "柠萌不恬oO", uid: "000", note: "@柠萌不萌oO"},
                 {id: "一片小苏叶", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -16,12 +16,12 @@ const playerData = {
         }, {
             title: "加工器容量提升+40%",
             players: [
-                {id: "女乃_米唐", uid: "000", note: ""},
                 {id: "麻雕先生", uid: "000", note: ""},
                 {id: "me", uid: "000", note: ""},
                 {id: "可可夹心芝士", uid: "000", note: ""},
                 {id: "星期八再说丶", uid: "000", note: ""},
                 {id: "o乌0乌O乌", uid: "000", note: ""},
+                {id: "女乃_米唐", uid: "000", note: ""},
             ]
         },
         {

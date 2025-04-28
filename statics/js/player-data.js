@@ -58,7 +58,7 @@ const playerData = {
                 {id: "拿瓶伏特加", uid: "000", note: ""},
                 {id: "二粒糖糖", uid: "000", note: "糖糖promax"},
                 {id: "有星入梦来", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "⻄安", uid: "000", note: "洗⽩"},
             ]
         },
         {

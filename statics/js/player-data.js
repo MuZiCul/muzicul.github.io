@@ -5,8 +5,8 @@ const playerData = {
         {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
-                {id: "我菜我认叭", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "我菜我认叭", uid: "000", note: "@柠萌不萌oO"},
+                {id: "柠萌不恬oO", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -28,7 +28,7 @@ const playerData = {
             title: "钓鱼&鱼卡熟练度+60%",
             players: [
                 {id: "柒一桉", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "Tjc6z", uid: "000", note: "@柠萌不萌oO"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -55,7 +55,7 @@ const playerData = {
             players: [
                 {id: "爱吃无穷鸡腿", uid: "000", note: ""},
                 {id: "是小夭哇", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "拿瓶伏特加", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -64,9 +64,9 @@ const playerData = {
         {
             title: "收获作物时农场经验获取提升+8%",
             players: [
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "传吖", uid: "000", note: ""},
+                {id: "钞钞cc", uid: "000", note: ""},
+                {id: "宁小巧红豆沙", uid: "000", note: "@柠萌不萌oO"},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
@@ -86,7 +86,7 @@ const playerData = {
         {
             title: "鱼塘全水层钓鱼经验+15%",
             players: [
-                {id: "000", uid: "000", note: ""},
+                {id: "偷喝汽水ft", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},

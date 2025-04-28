@@ -68,7 +68,7 @@ const playerData = {
                 {id: "钞钞cc", uid: "000", note: ""},
                 {id: "宁小巧红豆沙", uid: "000", note: "@柠萌不萌oO"},
                 {id: "但是f", uid: "000", note: "@沾砚"},
-                {id: "000", uid: "000", note: ""},
+                {id: "张之维5", uid: "000", note: "格子外的星空"},
                 {id: "000", uid: "000", note: ""},
             ]
         },

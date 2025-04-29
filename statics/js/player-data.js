@@ -40,7 +40,7 @@ const playerData = {
             players: [
                 {id: "杨的梦", uid: "000", note: ""},
                 {id: "格子外的星空", uid: "000", note: ""},
-                {id: "000", uid: "000", note: ""},
+                {id: "打烊万事顺遂", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},
                 {id: "000", uid: "000", note: ""},

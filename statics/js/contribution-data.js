@@ -3,8 +3,8 @@ const contributionData = {
     // 贡献榜数据
     contributions: [
         {
-            name: "麻雕先生", points: 13, contributions: [
-                "加工动物*1","扩容*1","鱼卡*1",
+            name: "麻雕先生", points: 17, contributions: [
+                "加工动物*1","扩容*2","鱼卡*1",
             ]
         }, {
             name: "叶小澄", points: 6, contributions: [
@@ -15,8 +15,8 @@ const contributionData = {
                 "加工动物*1",
             ]
         }, {
-            name: "泛清波摘遍", points: 5, contributions: [
-                "加工动物*1",
+            name: "泛清波摘遍", points: 6, contributions: [
+                "加工动物*1","普彩*1",
             ]
         }, {
             name: "海与小汐", points: 5, contributions: [
@@ -35,8 +35,8 @@ const contributionData = {
                 "扩容*2",
             ]
         }, {
-            name: "糖糖ProMax", points: 7, contributions: [
-                "扩容*1","普彩*3",
+            name: "糖糖ProMax", points: 8, contributions: [
+                "扩容*1","普彩*4",
             ]
         }, {
             name: "地拿大王", points: 4, contributions: [
@@ -63,20 +63,20 @@ const contributionData = {
                 "鱼卡*1",
             ]
         }, {
-            name: "久玥丨", points: 12.33, contributions: [
-                "鱼卡*1","普彩*5","莲花掌*1",
+            name: "久玥丨", points: 13.33, contributions: [
+                "鱼卡*1","普彩*6","莲花掌*1",
             ]
         }, {
-            name: "雪萌萌", points: 12.33, contributions: [
-                "鱼卡*2","康乃馨*1","普彩*1",
+            name: "雪萌萌", points: 13.33, contributions: [
+                "鱼卡*2","康乃馨*1","普彩*2",
             ]
         }, {
             name: "梦中z08", points: 3, contributions: [
                 "作物丰收*1",
             ]
         }, {
-            name: "小胖斧z", points: 7, contributions: [
-                "作物丰收*1","扩容*1"
+            name: "小胖斧z", points: 8, contributions: [
+                "作物丰收*1","扩容*1","普彩*1",
             ]
         }, {
             name: "3号是狼呀快跑", points: 13, contributions: [
@@ -87,8 +87,8 @@ const contributionData = {
                 "作物丰收*1",
             ]
         }, {
-            name: "丁丁又喂饼了", points: 4, contributions: [
-                "作物丰收*1","普彩*1",
+            name: "丁丁又喂饼了", points: 5, contributions: [
+                "作物丰收*1","普彩*1","普彩*1",
             ]
         }, {
             name: "小禾财露尖尖角", points: 2, contributions: [
@@ -107,12 +107,12 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "半颜吖", points: 2, contributions: [
-                "普彩*2",
+            name: "半颜吖", points: 3, contributions: [
+                "普彩*3",
             ]
         }, {
-            name: "姚小白丨", points: 3.46, contributions: [
-                "普彩*1","雪滴花*1",
+            name: "姚小白丨", points: 4.46, contributions: [
+                "普彩*2","雪滴花*1",
             ]
         }, {
             name: "乐樂樂", points: 1, contributions: [
@@ -135,8 +135,8 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "6PJd", points: 3, contributions: [
-                "普彩*3",
+            name: "6PJd", points: 5, contributions: [
+                "普彩*5",
             ]
         }, {
             name: "我菜我认叭", points: 1, contributions: [
@@ -147,20 +147,20 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "Sunshine汤圆", points: 3, contributions: [
+            name: "Sunshine汤圆", points: 4, contributions: [
+                "普彩*4",
+            ]
+        }, {
+            name: "是小夭哇", points: 2, contributions: [
+                "普彩*2",
+            ]
+        },  {
+            name: "BB来噜", points: 3, contributions: [
                 "普彩*3",
             ]
         }, {
-            name: "是小夭哇", points: 1, contributions: [
-                "普彩*1",
-            ]
-        },  {
-            name: "BB来噜", points: 2, contributions: [
+            name: "你我如星月", points: 2, contributions: [
                 "普彩*2",
-            ]
-        }, {
-            name: "你我如星月", points: 1, contributions: [
-                "普彩*1",
             ]
         }, {
             name: "墟里星禾", points: 5, contributions: [
@@ -175,8 +175,8 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "每天只会吨吨吨", points: 3, contributions: [
-                "作物丰收*1",
+            name: "每天只会吨吨吨", points: 5, contributions: [
+                "作物丰收*1","普彩*2",
             ]
         }, {
             name: "蛊荧", points: 1, contributions: [
@@ -191,16 +191,16 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "沾砚", points: 4, contributions: [
-                "普彩*4",
+            name: "沾砚", points: 9, contributions: [
+                "普彩*5","鱼卡*1",
             ]
         }, {
             name: "寄恒月", points: 4.33, contributions: [
                 "连翘*1",
             ]
         }, {
-            name: "晚江词", points: 2.85, contributions: [
-                "樱花*1",
+            name: "晚江词", points: 3.85, contributions: [
+                "樱花*1","普彩*1",
             ]
         }, {
             name: "炸诈吒弹", points: 3.33, contributions: [
@@ -247,8 +247,8 @@ const contributionData = {
                 "普彩*1","作物丰收*1"
             ]
         }, {
-            name: "女乃_米唐", points: 11.33, contributions: [
-                "连翘*1","丁香*1","普彩*1","鱼卡*1",
+            name: "女乃_米唐", points: 15.33, contributions: [
+                "连翘*1","丁香*1","普彩*1","鱼卡*1","扩容*1",
             ]
         }, {
             name: "小梨宝baby", points: 6.8, contributions: [
@@ -271,8 +271,8 @@ const contributionData = {
                 "夏腊梅*1",
             ]
         }, {
-            name: "极品靑年", points: 3.33, contributions: [
-                "连翘*1",
+            name: "极品靑年", points: 4.33, contributions: [
+                "连翘*1","普彩*1",
             ]
         }, {
             name: "自觉委托猫咪", points: 3.03, contributions: [
@@ -287,8 +287,8 @@ const contributionData = {
                 "丁香*1","作物丰收*1",
             ]
         }, {
-            name: "旧版刊", points: 5, contributions: [
-                "假ID*1",
+            name: "旧版刊", points: 6, contributions: [
+                "假ID*1","普彩*1",
             ]
         }, {
             name: "脆脆脆桃子", points: 5.56, contributions: [
@@ -311,12 +311,12 @@ const contributionData = {
                 "扩容*1",
             ]
         }, {
-            name: "马铃薯公主i", points: 5, contributions: [
-                "扩容*1","普彩*1",
+            name: "马铃薯公主i", points: 6, contributions: [
+                "扩容*1","普彩*2",
             ]
         }, {
-            name: "喵喵喵哥哥怕怕", points: 5, contributions: [
-                "扩容*1","普彩*1",
+            name: "喵喵喵哥哥怕怕", points: 7, contributions: [
+                "扩容*1","普彩*3",
             ]
         }, {
             name: "小镇荣七里香", points: 4, contributions: [
@@ -351,8 +351,8 @@ const contributionData = {
                 "作物丰收*1",
             ]
         }, {
-            name: "宅妹玉", points: 1, contributions: [
-                "普彩*1",
+            name: "宅妹玉", points: 2, contributions: [
+                "普彩*2",
             ]
         }, {
             name: "不要不开心噢7", points: 2, contributions: [
@@ -371,36 +371,36 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "在看月亮吗", points: 1, contributions: [
-                "普彩*1",
+            name: "在看月亮吗", points: 3, contributions: [
+                "普彩*3",
             ]
         }, {
             name: "奻諵", points: 1, contributions: [
                 "普彩*1",
             ]
         }, {
-            name: "睿祺呢", points: 1, contributions: [
-                "普彩*1",
+            name: "睿祺呢", points: 2, contributions: [
+                "普彩*2",
             ]
         }, {
-            name: "苿熙", points: 2, contributions: [
-                "普彩*2",
+            name: "苿熙", points: 3, contributions: [
+                "普彩*3",
             ]
         }, {
             name: "嘟嘟指挥官", points: 1, contributions: [
                 "普彩*1",
             ]
         }, {
-            name: "可可夹心芝士", points: 1, contributions: [
-                "普彩*1",
+            name: "可可夹心芝士", points: 10, contributions: [
+                "普彩*2","鱼卡*1","扩容*1",
             ]
         }, {
             name: "芋泥小甜狗m", points: 1, contributions: [
                 "普彩*1",
             ]
         }, {
-            name: "炒乌龙", points: 1, contributions: [
-                "普彩*1",
+            name: "炒乌龙", points: 3, contributions: [
+                "普彩*3",
             ]
         }, {
             name: "一点已松子糖", points: 1, contributions: [
@@ -419,12 +419,12 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "七载若木", points: 2, contributions: [
-                "普彩*2",
+            name: "七载若木", points: 3, contributions: [
+                "普彩*3",
             ]
         }, {
-            name: "拿瓶伏特加", points: 1, contributions: [
-                "普彩*1",
+            name: "拿瓶伏特加", points: 2, contributions: [
+                "普彩*2",
             ]
         }, {
             name: "玫瑰生煎包", points: 1, contributions: [
@@ -459,16 +459,16 @@ const contributionData = {
                 "鱼卡*1",
             ]
         }, {
-            name: "噼里啪啦_Lx", points: 4, contributions: [
-                "鱼卡*1",
+            name: "噼里啪啦_Lx", points: 9, contributions: [
+                "鱼卡*1","动物加工*1",
             ]
         }, {
-            name: "洗⽩", points: 4, contributions: [
-                "鱼卡*1",
+            name: "洗⽩", points: 6, contributions: [
+                "鱼卡*1","普彩*2",
             ]
         }, {
-            name: "春雪后", points: 3, contributions: [
-                "作物丰收*1",
+            name: "春雪后", points: 8, contributions: [
+                "作物丰收*1","扩容*1","普彩*1",
             ]
         }, {
             name: "探悉", points: 3, contributions: [
@@ -519,8 +519,8 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "綿喵", points: 1, contributions: [
-                "普彩*1",
+            name: "綿喵", points: 2, contributions: [
+                "普彩*2",
             ]
         }, {
             name: "卜渴梨鱼y", points: 2, contributions: [
@@ -531,24 +531,24 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "爱吃无穷鸡腿", points: 1, contributions: [
-                "普彩*1",
+            name: "爱吃无穷鸡腿", points: 6, contributions: [
+                "普彩*2","扩容*1",
             ]
         }, {
-            name: "打的你变猪头", points: 1, contributions: [
-                "普彩*1",
+            name: "打的你变猪头", points: 5, contributions: [
+                "普彩*1","鱼卡*1",
             ]
         }, {
-            name: "Luckyd8k", points: 1, contributions: [
-                "普彩*1",
+            name: "Luckyd8k", points: 5, contributions: [
+                "普彩*1","丰收*1",
             ]
         }, {
             name: "绝配嘛", points: 1, contributions: [
                 "普彩*1",
             ]
         }, {
-            name: "时方悟", points: 1, contributions: [
-                "普彩*1",
+            name: "时方悟", points: 2, contributions: [
+                "普彩*2",
             ]
         }, {
             name: "两碗荷包蛋", points: 1, contributions: [
@@ -559,8 +559,228 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "000", points: 1, contributions: [
+            name: "赶脚儿", points: 5, contributions: [
+                "动物加工*1",
+            ]
+        }, {
+            name: "求求别偷我菜啊", points: 5, contributions: [
+                "动物加工*1",
+            ]
+        }, {
+            name: "妮稱", points: 5, contributions: [
+                "动物加工*1",
+            ]
+        }, {
+            name: "艾薇er", points: 5, contributions: [
+                "动物加工*1",
+            ]
+        }, {
+            name: "火星人哔哔哔", points: 4, contributions: [
+                "扩容*1",
+            ]
+        }, {
+            name: "豆哥子豆", points: 4, contributions: [
+                "扩容*1",
+            ]
+        }, {
+            name: "泠泠雪诗", points: 4, contributions: [
+                "鱼卡*1",
+            ]
+        }, {
+            name: "半月魔女", points: 4, contributions: [
+                "鱼卡*1",
+            ]
+        }, {
+            name: "xxxy823", points: 3, contributions: [
+                "丰收*1",
+            ]
+        }, {
+            name: "油癫猫饼", points: 1, contributions: [
                 "普彩*1",
+            ]
+        }, {
+            name: "爱吃猫条的猫猫", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "是谁在被爱", points: 2, contributions: [
+                "普彩*2",
+            ]
+        }, {
+            name: "酱酱不吃姜yu", points: 2, contributions: [
+                "普彩*2",
+            ]
+        }, {
+            name: "与卿来噜", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "龙龙", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "格子外的星空", points: 5, contributions: [
+                "普彩*2","丰收*1",
+            ]
+        }, {
+            name: "睡不着的cat", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "可乐饼小鱼仔", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "小脑菜菜", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "君禧绾之h", points: 2, contributions: [
+                "普彩*2",
+            ]
+        }, {
+            name: "特甜辣妹", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "柒一桉", points: 5, contributions: [
+                "普彩*1","鱼卡*1",
+            ]
+        }, {
+            name: "杭州彦祖", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "柠萌不萌oO", points: 13, contributions: [
+                "动物加工*2","鱼卡*1","普彩*1",
+            ]
+        }, {
+            name: "一片小苏叶", points: 4, contributions: [
+                "动物加工*1",
+            ]
+        }, {
+            name: "me", points: 4, contributions: [
+                "扩容*1",
+            ]
+        }, {
+            name: "星期八再说丶", points: 4, contributions: [
+                "扩容*1",
+            ]
+        }, {
+            name: "o乌0乌O乌", points: 4, contributions: [
+                "扩容*1",
+            ]
+        }, {
+            name: "肉丸子你吃不", points: 5, contributions: [
+                "鱼卡*1","普彩*1",
+            ]
+        }, {
+            name: "AAA建材蛋哥", points: 4, contributions: [
+                "鱼卡*1",
+            ]
+        }, {
+            name: "Yao_冬", points: 4, contributions: [
+                "鱼卡*1",
+            ]
+        }, {
+            name: "杨的梦", points: 3, contributions: [
+                "丰收*1",
+            ]
+        }, {
+            name: "打烊万事顺遂", points: 3, contributions: [
+                "丰收**1",
+            ]
+        }, {
+            name: "有星入梦来", points: 1, contributions: [
+               "普彩*1",
+            ]
+        }, {
+            name: "钞钞cc", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "Puffpuppy", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "柠檬爱汤圆", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "偷喝汽水ft", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "醉心妍", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "久居香菜林", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "朝歌To", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "牛仔追星睡不醒", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "肉肉", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "秋编织流", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "B事儿真多", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "睡不着的咪", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "小joy乖乖兔", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "雅Os", points: 1, contributions: [
+                "普彩*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
+            ]
+        }, {
+            name: "000", points: 1, contributions: [
+                "000*1",
             ]
         }
     ]

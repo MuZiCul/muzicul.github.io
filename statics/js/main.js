@@ -209,11 +209,11 @@ function renderPlayerList(data, containerId) {
             idSpan.textContent = player.id;
             infoDiv.appendChild(idSpan);
 
-            // 如果有note，创建标签
-            if (player.note) {
+            // 如果有at，创建@
+            if (player.at) {
                 const noteSpan = document.createElement('span');
                 noteSpan.className = `player-note ${getNoteClass(player.note)}`;
-                let atText = player.note;
+                let atText = player.at;
                 if (!atText.startsWith('@')) {
                     atText = '@' + atText;
                 }
@@ -224,6 +224,14 @@ function renderPlayerList(data, containerId) {
                 const note_text = `@${player.id}`;
                 noteSpan.className = `player-note ${getNoteClass(note_text)}`;
                 noteSpan.textContent = note_text;
+                infoDiv.appendChild(noteSpan);
+            }
+
+            // 如果有note，创建标签
+            if (player.note) {
+                const noteSpan = document.createElement('span');
+                noteSpan.className = `player-note ${getSellClass(player.note)}`;
+                noteSpan.textContent = player.note;
                 infoDiv.appendChild(noteSpan);
             }
 

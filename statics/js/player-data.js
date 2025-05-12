@@ -45,17 +45,7 @@ const playerData = {
                 {id: "偷喝汽水ft", uid: "000", note: "", at: ""},
                 {id: "点听星火", uid: "000", note: "", at: ""},
             ]
-        },{
-            title: "每日拿取次数+15",
-            players: [
-                {id: "小雪LLL", uid: "000", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
-            ]
-        },
+        }
 
     ],
     // 经验区数据
@@ -177,7 +167,17 @@ const playerData = {
                 {id: "000", uid: "000", note: "", at: ""},
                 {id: "000", uid: "000", note: "", at: ""},
             ]
-        }
+        },{
+            title: "每日拿取次数+15",
+            players: [
+                {id: "小雪LLL", uid: "000", note: "", at: ""},
+                {id: "000", uid: "000", note: "", at: ""},
+                {id: "000", uid: "000", note: "", at: ""},
+                {id: "000", uid: "000", note: "", at: ""},
+                {id: "000", uid: "000", note: "", at: ""},
+                {id: "000", uid: "000", note: "", at: ""},
+            ]
+        },
     ],
 
     // 耻辱柱数据

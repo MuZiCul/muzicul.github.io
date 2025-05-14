@@ -27,11 +27,11 @@ const playerData = {
         {
             title: "钓鱼&鱼卡熟练度+60%",
             players: [
+                {id: "稚爱", uid: "304538606", note: "", at: ""},
                 {id: "鲨鲨鲨鱼宝宝", uid: "293678411", note: "", at: ""},
                 {id: "媃嬵", uid: "472562841", note: "", at: ""},
                 {id: "Yao_冬", uid: "1672593855", note: "", at: ""},
                 {id: "归眠恋玫瑰", uid: "724021019", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
                 {id: "000", uid: "000", note: "", at: ""},
             ]
         },

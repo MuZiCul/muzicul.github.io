@@ -443,10 +443,6 @@ const contributionData = {
                 "加工动物*1",
             ]
         }, {
-            name: "第一真心人", points: 4, contributions: [
-                "扩容*1",
-            ]
-        }, {
             name: "纱猫讥笑", points: 4, contributions: [
                 "鱼卡*1",
             ]

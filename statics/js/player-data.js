@@ -15,10 +15,8 @@ const playerData = {
             players: [
                 {id: "酱酱不吃姜yu", uid: "1723090632", note:"",at: ""},
                 {id: "糊椒蛮馋h", uid: "1518506048", note:"",at: "@卜渴梨鱼y"},
-                {id: "宁小巧红豆沙", uid: "", note:"",at: "@柠萌不萌"},
                 {id: "每天只会吨吨吨", uid: "1968001969", note:"",at: ""},
-                {id: "奶楹", uid: "", note:"",at: ""},
-                {id: "嘿", uid: "", note:"",at: "@龙龙"},
+
             ]
         },
         {
@@ -115,7 +113,6 @@ const playerData = {
                  {id: "小蜜冯", uid: "55147823", note:"",at: ""},
                  {id: "半颜吖", uid: "978974992", note:"",at: ""},
                  {id: "豆哥子豆", uid: "522385819", note:"",at: ""},
-                 {id: "⻄安", uid: "", note:"",at: "@高甜"},
                  {id: "07糕冷小妈", uid: "568607054", note:"",at: ""},
             ]
         },

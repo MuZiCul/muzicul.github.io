@@ -108,7 +108,7 @@ const playerData = {
             players: [
                 {id: "夏日菠萝啤", uid: "735005786", note: "", at: "沾砚"},
                 {id: "史诗cute兔", uid: "492596291", note: "", at: ""},
-                {id: "000", uid: "000", note: "", at: ""},
+                {id: "观点星火", uid: "231457530", note: "", at: "点听星火"},
                 {id: "000", uid: "000", note: "", at: ""},
                 {id: "000", uid: "000", note: "", at: ""},
                 {id: "000", uid: "000", note: "", at: ""},

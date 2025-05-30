@@ -39,7 +39,7 @@ const commonData = {
     
     // 网站访问密码配置
     passwordConfig: {
-        enabled: true,                     // 是否启用密码功能
+        enabled: false,                     // 是否启用密码功能
         encodedPassword: "MTIzNDg=",  // base64编码的密码，解码后为"starfarm"
         expireDays: 1,                     // Cookie过期天数
         title: "星宝农场必备手册 - 访问验证",  // 密码页面标题

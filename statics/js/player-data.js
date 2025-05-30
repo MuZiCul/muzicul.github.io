@@ -139,7 +139,6 @@ const playerData = {
             title: "动物熟练度获取提升+40%",
             players: [
                 {id: "晨光熹微YL", uid: "791291738", note: "", at: ""},
-                {id: "桃念念大王", uid: "541009604", note: "", at: ""},
                 {id: "直觉委托喵咪", uid: "318064233", note: "", at: ""},
                 {id: "000", uid: "000", note: "", at: ""},
                 {id: "000", uid: "000", note: "", at: ""},

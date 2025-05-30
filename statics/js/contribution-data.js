@@ -551,10 +551,6 @@ const contributionData = {
                 "普彩*1",
             ]
         }, {
-            name: "桃念念大王", points: 2, contributions: [
-                "普彩*2",
-            ]
-        }, {
             name: "赶脚儿", points: 5, contributions: [
                 "动物加工*1",
             ]
